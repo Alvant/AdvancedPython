@@ -54,11 +54,11 @@
 Переходим в созданную папку с репозиторием и проверяем статус `git status`:
 ![](./images/git_09__git_status.png)
 
-Для рабочих целей создадим файл `CODEOWNERS` и запишем туда ссылку на Гитхаб аккаунт семинариста:
-![](./images/git_10__codeowners.png)
-
 
 ### Небольшое техническое отступление для организации сдачи задания с помощью Гитхаба
+
+Для рабочих целей создадим файл `CODEOWNERS` и запишем туда ссылку на Гитхаб аккаунт семинариста:
+![](./images/git_10__codeowners.png)
 
 Добавляем файл `CODEOWNERS` в список файлов, которые мы далее закоммитим, с помощью команды `git add`.
 Проверяем статус (на всякий случай).
@@ -85,7 +85,7 @@
 Пушим (если попробовать сделать просто `git push`, то Гит будет ругаться — надо просто следовать его рекомендациям):
 ![](./images/git_16__push_feature.png)
 
-Изменения опубликованы на сайте:
+Изменения опубликованы на сайте (там же есть кнопка "создать пуллреквест"):
 ![](./images/git_17__push_feature_result.png)
 
 Если работа над заданием закончена, то создаём pullrequest (сливаем рабочую ветку в основную — в master):
@@ -109,6 +109,6 @@
 
 ## Ссылки
 
-* Пара крутых питонских однострочников ("обратить словарь в одну строчку"): [Powerful Python One-Liners](https://wiki.python.org/moin/Powerful%20Python%20One-Liners)
-* Unix-like консоль на Windows: [Cmder](https://cmder.net/)
-* Классная интерактивная Гит-обучалка (`git add`, `git commit`, `git cherry-pick`, `git rebase` & more): [Learn Git Branching](https://learngitbranching.js.org/?locale=ru_RU)
+* [Powerful Python One-Liners](https://wiki.python.org/moin/Powerful%20Python%20One-Liners) — пара крутых питонских однострочников ("обратить словарь в одну строчку")
+* [Cmder](https://cmder.net/) — Unix-like консоль на Windows
+* [Learn Git Branching](https://learngitbranching.js.org/?locale=ru_RU) — классная интерактивная Гит-обучалка (`git add`, `git commit`, `git cherry-pick`, `git rebase` & many more)

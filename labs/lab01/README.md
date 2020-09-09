@@ -27,33 +27,35 @@
 ## Git Intro
 
 Заходим на страницу своего профиля на Гитхаб:
-![](git_01_profile.png)
+![](./images/git_01_profile.png)
 
 Создаём репозиторий:
-![](git_02__create_repo.png)
+![](./images/git_02__create_repo.png)
 
 Даём ему имя, можем добавить README, файл с лицензией (лучше хоть какой-то файл создать на всякий случай, чтобы репозиторий был непустой).
 Например, добавим MIT лицензию:
-![](git_03__repo_info.png)
+![](./images/git_03__repo_info.png)
 
 Репозиторий создан:
-![](git_04__repo_created.png)
+![](./images/git_04__repo_created.png)
 
 Копируем адрес репозитория:
-![](git_05__repo_address.png)
+![](./images/git_05__repo_address.png)
 
 На своём компьютере переходим в рабочую директорию:
-![](git_06__local_working_folder.png)
+![](./images/git_06__local_working_folder.png)
 
 И создаём локальный клон репозитория:
-![](git_07__cloning.png)
-![](git_08__cloning_result.png)
+![](./images/git_07__cloning.png)
+
+Клонирование завершено:
+![](./images/git_08__cloning_result.png)
 
 Переходим в созданную папку с репозиторием и проверяем статус `git status`:
-![](git_09__git_status.png)
+![](./images/git_09__git_status.png)
 
 Для рабочих целей создадим файл `CODEOWNERS` и запишем туда ссылку на Гитхаб аккаунт семинариста:
-![](git_10__codeowners.png)
+![](./images/git_10__codeowners.png)
 
 
 ### Небольшое техническое отступление для организации сдачи задания с помощью Гитхаба
@@ -62,38 +64,38 @@
 Проверяем статус (на всякий случай).
 Коммитим файл, добавляя к коммиту поясняющее сообщение (коммит — запись, сохранение изменений).
 Опять проверяем статус:
-![](git_11__adding_codeowners.png)
+![](./images/git_11__adding_codeowners.png)
 
 Пушим локальные изменения на Гитхаб:
-![](git_12__push.png)
+![](./images/git_12__push.png)
 
 Теперь на сайте есть файл `CODEOWNERS`:
-![](git_13__push_result.png)
+![](./images/git_13__push_result.png)
 
 
 ### Оформление задания на Гитхабе
 
 Создаём рабочую ветку и переходим на неё `git checkout -b <branch name>` (`checkout` — переход на ветку, флаг `-b` — "ветка новая, надо её сначала создать").
-![](git_14__checkout.png)
+![](./images/git_14__checkout.png)
 
 Оформляем задание в файле, и оформляем его в локальном Гите (`git add`, `git commit`).
 В примере на картинке создаётся пустой файл — это просто ради демонстрации.
-![](git_15__add_lab_file.png)
+![](./images/git_15__add_lab_file.png)
 
 Пушим (если попробовать сделать просто `git push`, то Гит будет ругаться — надо просто следовать его рекомендациям):
-![](git_16__push_feature.png)
+![](./images/git_16__push_feature.png)
 
 Изменения опубликованы на сайте:
-![](git_17__push_feature_result.png)
+![](./images/git_17__push_feature_result.png)
 
 Если работа над заданием закончена, то создаём pullrequest (сливаем рабочую ветку в основную — в master):
-![](git_18__create_pullrequest.png)
+![](./images/git_18__create_pullrequest.png)
 
 Реквест создан:
-![](git_19__request_overview.png)
+![](./images/git_19__request_overview.png)
 
 Можно посмотреть, какие изменения в рабочей ветке по сравнению с целевой веткой (master):
-![](git_20__request_overview_files.png)
+![](./images/git_20__request_overview_files.png)
 
 Потом в реквесте можно будет общаться, комментировать и т.п.
 
@@ -102,7 +104,7 @@
 * В Гит не надо добавлять лишние файлы (особенно какие-нибудь большие файлы). По этой части может помочь файл `.gitignore`
 
 * Чтобы случайно не запушить задание в master без реквеста, можно настроить branch protection rules в настройках репозитория ("просто так коммитить нельзя — изменения можно добавлять только через пулреквесты"):
-![](git_21__branch_protection.png)
+![](./images/git_21__branch_protection.png)
 
 
 ## Ссылки

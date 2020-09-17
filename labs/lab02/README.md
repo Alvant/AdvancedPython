@@ -10,8 +10,8 @@
 
 Пример вывода (каждая строчка печатается спустя 10 секунд после предыдущей):
 ```bash
-$ Contents of /tmp: 0 files, 0 folders
-$ Contents of /tmp: 9 files, 5 folders
+$ Contents of custom_tmp: 0 files, 0 folders
+$ Contents of custom_tmp: 9 files, 5 folders
 $ ...
 ```
 
@@ -21,13 +21,13 @@ custom_tmp
 ├── file1.txt
 └── file2.txt
 
-$ Contents of ~/custom_tmp: 2 files, 0 folders
+$ Contents of custom_tmp: 2 files, 0 folders
 
 custom_tmp
 ├── file1.txt
 └── folder1
 
-$ Contents of ~/custom_tmp: 1 files, 1 folders
+$ Contents of custom_tmp: 1 files, 1 folders
 
 custom_tmp
 ├── file1.txt
@@ -35,7 +35,7 @@ custom_tmp
     ├── file1.txt
     └── file2.txt
 
-$ Contents of ~/custom_tmp: 1 files, 1 folders
+$ Contents of custom_tmp: 1 files, 1 folders
 ```
 
 В качестве решения задачи надо подготовить описанный .sh скрипт.

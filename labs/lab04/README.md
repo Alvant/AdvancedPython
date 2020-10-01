@@ -3,7 +3,7 @@
 ## Задача 1 («‎Автор»‎)
 
 Напишите декоратор `author`, который принимает на вход один строковый параметр — имя человека-автора какой-либо функции.
-У функции, декорируемой `author`, должно быть появиться поле `_author`, содержащее переданное при инииализации декоратора имя автора функции.
+У функции, декорируемой `author`, должно появиться поле `_author`, содержащее переданное при инициализации декоратора имя автора функции.
 
 Например
 ```python
@@ -13,6 +13,29 @@
 >>>
 >>> print(add2._author)
 Captain Friedrich Von Schoenvorts
+```
+
+### P.S.
+
+Функции в Питоне — тоже объекты, которые могут иметь как методы, так и поля:
+```python
+>>> def func1():
+>>>     pass
+>>>
+>>> func1.param1 = "17.5"  # just set some new parameter
+>>>
+>>> print(func1.param1)
+17.5
+>>>
+>>> def func2():
+>>>     func2.param1 = "Функции в Питоне — тоже объекты"
+>>>
+>>>     return
+>>>
+>>> func2()  # call once so as to initialize the parameter in the body
+>>>
+>>> print(func2.param1)
+Функции в Питоне — тоже объекты
 ```
 
 ## Задача 2 («‎Журнал»‎)
@@ -46,14 +69,14 @@ $ cat journal.txt
 {"name": "Джон", "surname": "Сильвер", "middle_name": null, "age": "50", "sex": "M", "married": true, "hobbies": ["treasure", "alcohol"]}
 ```
 
-### Описание параметров, которые должна быть возможность указывать в командной строке
+### Описание параметров командной строки
 
 * `--name`: имя (строка; обязательный).
 * `--surname`: фамилия (строка; обязательный).
 * `--middle_name`: отчество (строка; необязательный, по умолчанию `None`).
 * `--age`: возраст (целое число; обязательный).
-* `--sex`: пол (строка, *всего два* возможных значения: `M` и `F`; обязательный).
-* `--married`: состоит ли в браке (булевское значение; необязательный). Если этот параметр *есть*, то значение `married` должно быть `True`. То есть писать надо не напрямую `<params> --married True <other params>`, а просто `<params> --married <other params>`.
+* `--sex`: пол (строка, *всего два возможных значения*: `M` и `F`; обязательный).
+* `--married`: состоит ли в браке (булевское значение; необязательный, по умолчанию `False`). Если этот параметр *есть*, то значение `married` должно становиться `True`. То есть писать надо не напрямую `<params> --married True <other params>`, а просто `<params> --married <other params>`.
 * `--hobbies`: хобби (список строк; необязательный, по умолчанию `None`).
 
 ### Формат вывода
@@ -65,14 +88,14 @@ $ cat journal.txt
 
 ## Задача 3* (Accepts & Returns)
 
-Напишите декораторы `accepts` и `returns`, которые проверяют типы параметров и возвращаемые типы декорируемой функции соответственно.
-Если какой-то из типов параметров или возвращаемый тип неправильные, должна возникать ошибка `TypeError`.
+Напишите декораторы `accepts` и `returns`, которые проверяют типы аргументов и возвращаемый типы декорируемой функции соответственно.
+Если какой-то из типов аргументов или возвращаемый тип неправильные, должна возникать ошибка `TypeError`.
 Пример использования:
 ```python
 >>> @accepts(str, int)
 >>> @returns(None)
 >>> def show_what_i_have(asset: str, quantity: int) -> None:
-...     if quantity == 1:
+...     if quantity > 1:
 ...         asset = asset + 's'
 ...
 ...     print(f"I have {quantity} {asset}!")
@@ -90,7 +113,7 @@ TypeError: `asset` parameter should by of type "str", not "int"!
 * [Декораторы в Python: понять и полюбить](https://tproger.ru/translations/demystifying-decorators-in-python). Статья на Tproger.
 * [The decorators they won't tell you about](https://github.com/hchasestevens/hchasestevens.github.io/blob/master/notebooks/the-decorators-they-wont-tell-you-about.ipynb). Ноутбук с примерами и замечаниями (на английском). Это похоже на настоящий advanced level.
 * [(\*) Python Wiki — PythonDecorators](https://wiki.python.org/moin/PythonDecorators). Про историю введения декораторов в Питон.
-* [(\*) Python Wiki — PythonDecoratorLibrary](https://wiki.python.org/moin/PythonDecoratorLibrary). Очень много примеров нетривиальных (и небесполезных) декораторов.
+* [(\*) Python Wiki — PythonDecoratorLibrary](https://wiki.python.org/moin/PythonDecoratorLibrary). Очень много примеров нетривиальных (и небезынтересных) декораторов.
 * [Awesome Python Decorator](https://github.com/lord63/awesome-python-decorator). Популярный Гитхаб репозиторий с разными ссылками по декораторам (пара ссылок выше, со звёздочками, — отсюда).
 
 ### Argparser

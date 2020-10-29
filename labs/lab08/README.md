@@ -21,7 +21,7 @@ for root, folders, files in custom_walk('/data/workspace'):
     print(f'Folder "{root}" contains {len(folders)} folders and {len(files)} files.')
 ```
 
-## Задача 2 («‎Console-reader»‎)
+## Задача 2 («‎Console-Reader»‎)
 
 Со стандартного ввода (из консоли) могу поступать числа.
 Надо реализовать итератор, который бы считывал эти числа из консоли.
@@ -40,7 +40,7 @@ for number in ConsoleIterator():
 print(f'Sum of entered numbers is {total_sum}')
 ```
 
-## Задача 3 («‎Pipeline»‎)
+## Задача 3 («‎Generator Pipeline»‎)
 
 Есть массив чисел (возможно, очень большой массив).
 Надо сделать с числами ряд преобразований.

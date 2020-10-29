@@ -1,4 +1,4 @@
-# Lab 8. For i in Iterable: Iterate
+# Lab 8. For `i` in Iterable: Iterate
 
 В качестве задания достаточно решить первую или вторую задачи.
 
@@ -37,7 +37,7 @@ total_sum = 0
 for number in ConsoleIterator():
     total_sum = total_sum + number
 
-print(f'Sum of entered numbers is {total_sum}!')
+print(f'Sum of entered numbers is {total_sum}')
 ```
 
 ## Задача 3 («‎Pipeline»‎)
@@ -56,7 +56,7 @@ print(f'Sum of entered numbers is {total_sum}!')
 numbers = [1, -2, 4, 3]
 
 # TODO: code here
-# ...
+# result_numbers = ...
 # result_numbers = ...
 
 print(result_numbers)  # 1 1 0

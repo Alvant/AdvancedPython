@@ -1,4 +1,4 @@
-# Lab 8. For `i` in Iterable: Iterate
+# Lab 8. For i in Iterable: Iterate
 
 В качестве задания достаточно решить первую или вторую задачи.
 

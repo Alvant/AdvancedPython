@@ -1,8 +1,8 @@
 # Lab 9. Into the Async
 
-Помимо лаюы и задания, есть [небольшой ноутбук](./demo/Coroutines-Into-the-Async.ipynb) про асинхронность.
+Помимо лабы и задания, есть [небольшой ноутбук](./demo/Coroutines-Into-the-Async.ipynb) про асинхронность.
 
-В качестве задания надо решить последние два упражнения из [лабы](http://cs.mipt.ru/advanced_python/lessons/lab09.html).
+В качестве же задания надо решить последние два упражнения из [лабы](http://cs.mipt.ru/advanced_python/lessons/lab09.html).
 
 ## Задача 1 (a.k.a. Упражнение 4)
 

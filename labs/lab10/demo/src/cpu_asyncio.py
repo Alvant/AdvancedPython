@@ -9,7 +9,7 @@ from constants import CPU_BIG_NUMBERS
 from utils import show_execution_time
 
 
-async def cpu_bound(number: int) -> int:
+async def cpu_bound(number: int) -> Awaitable[int]:
     return sum(i * i for i in range(number))
 
 

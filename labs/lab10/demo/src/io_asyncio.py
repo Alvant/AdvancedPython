@@ -9,7 +9,7 @@ from constants import IO_SITES
 from utils import show_execution_time
 
 
-async def download_site(session: aiohttp.ClientSession, url: str) -> None:
+async def download_site(session: aiohttp.ClientSession, url: str) -> Awaitable[None]:
     async with session.get(url) as response:
         print(f"Read {response.content_length} from {url}")
 

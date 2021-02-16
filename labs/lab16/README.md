@@ -10,13 +10,13 @@
 
 <!-- <img src="https://render.githubusercontent.com/render/math?math=f(x) = \sin(x / 5) * \exp(x / 10) + 5 * \exp(-x / 2)"> -->
 
-<div style="text-align: center;">
+<p align="center">
     <img src="./images/func_equation.svg" title="f(x) = \sin(x / 5) \exp(x / 10) + 5 \exp(-x / 2)" />
-</div>
+</p>
 
-<div style="text-align: center;">
+<p align="center">
     <img src="./images/func_plot.png" />
-</div>
+</p>
 
 Она может описывать, например, зависимость оценок, которые выставляют определенному сорту вина эксперты, в зависимости от возраста этого вина.
 Мы хотим приблизить сложную зависимость с помощью функции из определенного семейства.
@@ -25,9 +25,9 @@
 Как известно, многочлен степени `n` (то есть w<sub>0</sub> + w<sub>1</sub> x + w<sub>2</sub> x<sup>2</sup> + ... + w<sub>n</sub> x<sup>n</sup>) однозначно определяется любыми n + 1 различными точками, через которые он проходит.
 Это значит, что его коэффициенты w<sub>0</sub>, ..., w<sub>n</sub> можно определить из следующей системы линейных уравнений:
 
-<div style="text-align: center;">
+<p align="center">
     <img src="./images/system_of_equations.png" />
-</div>
+</p>
 
 где через x<sub>1</sub>, ..., x<sub>n</sub>, x<sub>n + 1</sub> обозначены точки, через которые проходит многочлен, а через f(x<sub>1</sub>), ..., f(x<sub>n</sub>), f(x<sub>n&nbsp;+&nbsp;1</sub>) — значения, которые он должен принимать в этих точках.
 

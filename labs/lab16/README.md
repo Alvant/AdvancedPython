@@ -93,3 +93,9 @@ x = [8, 0, 0, 1, 0, 0, 0, -17.5, 0]
 
 Answer: [8, 8, 8, 1, 1, 1, 1, -17.5, -17.5]
 ```
+
+
+# Ссылки
+
+* [NumPy Broadcasting](https://numpy.org/doc/stable/user/basics.broadcasting.html): не обязательно приводить тензоры к одинаковым размерностям при сложении и поэлементном умножении
+* [NumPy Indexing](https://numpy.org/doc/stable/reference/arrays.indexing.html): не всегда подматрица — ссылка на тот же кусок исходной матрицы (также см. про `flatten`, `ravel` и `reshape`)

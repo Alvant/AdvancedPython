@@ -14,7 +14,9 @@
     <img src="./images/func_equation.svg" title="f(x) = \sin(x / 5) \exp(x / 10) + 5 \exp(-x / 2)" />
 </p>
 
-![](./images/func_plot.png)
+<p style="text-align:center;">
+    <img src="./images/func_plot.png" />
+</p>
 
 Она может описывать, например, зависимость оценок, которые выставляют определенному сорту вина эксперты, в зависимости от возраста этого вина.
 Мы хотим приблизить сложную зависимость с помощью функции из определенного семейства.
@@ -24,7 +26,7 @@
 Это значит, что его коэффициенты w<sub>0</sub>, ..., w<sub>n</sub> можно определить из следующей системы линейных уравнений:
 
 <p style="text-align:center;">
-    ![](./images/system_of_equations.png)
+    <img src="./images/system_of_equations.png" />
 </p>
 
 где через x<sub>1</sub>, ..., x<sub>n</sub>, x<sub>n + 1</sub> обозначены точки, через которые проходит многочлен, а через f(x<sub>1</sub>), ..., f(x<sub>n</sub>), f(x<sub>n&nbsp;+&nbsp;1</sub>) — значения, которые он должен принимать в этих точках.

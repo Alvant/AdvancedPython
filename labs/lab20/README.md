@@ -42,3 +42,4 @@
 <p align="center">
     <img src="./images/not_by_accident.svg" title="\frac{NN_{ab}}{N_a N_b}" />
 </p>
+Чем больше это число, тем больше "неслучайность".

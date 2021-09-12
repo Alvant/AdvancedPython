@@ -80,8 +80,8 @@ num files in /home/neo: 4
 * Серия постов на Хабре про работу в консоли: [Bash-скрипты: начало](https://habr.com/ru/company/ruvds/blog/325522) (ссылка на первый пост).
 * Тоже пост на Хабре (перевод англоязычной статьи) в целом про основные команды в терминале: [Bash для начинающих: 21 полезная команда](https://habr.com/ru/company/ruvds/blog/445270/).
 * Ещё одна несложная статья с описанием того, что такое bash, с основными командами: [
-The Linux command line for beginners](https://ubuntu.com/tutorials/command-line-for-beginners#1-overview)
+The Linux command line for beginners](https://ubuntu.com/tutorials/command-line-for-beginners#1-overview).
 
 ---
 
-Источник одной из картинок с собачкой: https://twitter.com/roverfromxp1
+Источник одной из картинок с собачкой: https://twitter.com/roverfromxp1.

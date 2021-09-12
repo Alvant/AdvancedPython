@@ -76,8 +76,10 @@ num files in /home/neo: 4
 
 ![](./images/rover2.jpg)
 
-* [Bash-скрипты: начало](https://habr.com/ru/company/ruvds/blog/325522)
-* [Bash-скрипты, часть 2: циклы](https://habr.com/ru/company/ruvds/blog/325928)
+* Консоль на Windows, в которой можно использовать команды как в Linux консоли: https://cmder.net/. Ещё у неё вид поприятнее, нежели чем у обычного cmd)
+* Серия постов на Хабре про работу в консоли: [Bash-скрипты: начало](https://habr.com/ru/company/ruvds/blog/325522) (ссылка на первый пост).
+* Тоже пост на Хабре (перевод англоязычной статьи) в целом про основные команды в терминале: https://habr.com/ru/company/ruvds/blog/445270/.
+* Ещё одна несложная статья с описанием того, что такое bash, с основными командами: https://ubuntu.com/tutorials/command-line-for-beginners#1-overview
 
 ---
 

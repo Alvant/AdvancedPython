@@ -57,7 +57,7 @@ Scurvy
 | D       | ['Cholecalciferol', 'Ergocalciferol'] | Fat        | 0.015             | ['Rickets', 'Osteomalacia'] |
 
 
-## Задача 2* («Kinda JavaScript-Like +»)
+## Задача 2* («Pluz»)
 
 Надо написать функцию `pluz` от двух аргументов, которая работает как обычное сложение в Питоне.
 С тем исключением, что если ей на вход подать число `n` и строку `s`, которая может быть успешно приведена к числовому типу,
@@ -90,4 +90,5 @@ TypeError: unsupported operand type(s) for +: 'int' and 'list'
 
 ## P.S.
 
-Vitamins (Full Version): https://en.wikipedia.org/wiki/Vitamin#List
+* Vitamins (full version): https://en.wikipedia.org/wiki/Vitamin#List
+* JavaScript's "pluz": https://github.com/denysdovhan/wtfjs#funny-math

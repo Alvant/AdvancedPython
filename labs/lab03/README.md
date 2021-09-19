@@ -14,10 +14,10 @@
 Для каждого витамина в папке есть отдельный отдельный текстовый файл.
 В этом файле *построчно* перечислена следующая информация:
 * буквенное обозначение витамина
-* химическое название
+* химическое название (может быть несколько вариантов&nbsp;—&nbsp;в таком случае они разделены запятой)
 * растворимость (водо- или жирорастворимый)
-* суточная потребность (в миллиграммах)
-* последствия авитаминоза
+* суточная потребность (число, в миллиграммах)
+* последствия авитаминоза (может быть несколько&nbsp;—&nbsp;в таком случае они разделены запятой)
 
 Например, файл [C.txt](./vitamins/C.txt) для витамина C:
 ```
@@ -35,26 +35,26 @@ Scurvy
 [
     {
 	    "vitamin": "C",
-	    "vitamers": "Ascorbic acid",
+	    "vitamers": ["Ascorbic acid"],
 	    "solubility": "Water",
 	    "daily_requirement": 90,
-	    "deficiency_diseases": "Scurvy"
+	    "deficiency_diseases": ["Scurvy"]
     },
     {
 	    "vitamin": "D",
-	    "vitamers": "Cholecalciferol, Ergocalciferol",
+	    "vitamers": ["Cholecalciferol", "Ergocalciferol"],
 	    "solubility": "Fat",
 	    "daily_requirement": 0.015,
-	    "deficiency_diseases": "Rickets, Osteomalacia"
+	    "deficiency_diseases": ["Rickets", "Osteomalacia"]
     }
 ]
 ```
 
 Пример таблицы (которую можно описать в CSV файле) где представлены два витамина из коллекции *vitamins*:
-| vitamin | vitamers                        | solubility | daily_requirement | deficiency_diseases   |
-| ------- | ------------------------------- |----------- | ----------------- | --------------------- |
-| C       | Ascorbic acid                   | Water      | 90                | Scurvy                |
-| D       | Cholecalciferol, Ergocalciferol | Fat        | 0.015             | Rickets, Osteomalacia |
+| vitamin | vitamers                              | solubility | daily_requirement | deficiency_diseases         |
+| ------- | ------------------------------------- |----------- | ----------------- | --------------------------- |
+| C       | ['Ascorbic acid']                     | Water      | 90                | ['Scurvy']                  |
+| D       | ['Cholecalciferol', 'Ergocalciferol'] | Fat        | 0.015             | ['Rickets', 'Osteomalacia'] |
 
 
 ## Задача 2* («Kinda JavaScript-Like +»)

@@ -59,30 +59,30 @@ Scurvy
 
 ## Задача 2* («Kinda JavaScript-Like +»)
 
-Надо написать функцию `sum_js` от двух аргументов, которая работает, как обычное сложение в Питоне.
+Надо написать функцию `pluz` от двух аргументов, которая работает как обычное сложение в Питоне.
 С тем исключением, что если ей на вход подать число `n` и строку `s`, которая может быть успешно приведена к числовому типу,
-то в результате функция `sum_js` должна выдать не ошибку `TypeError`, а результат операции `n + int(s)`.
+то в результате функция `pluz` должна выдать не ошибку `TypeError`, а результат операции `n + int(s)`.
 
 Например:
 ```bash
->>> def sum_js(arg1, arg2):
-...     # Implementation of sum_js here
+>>> def pluz(arg1, arg2):
+...     # Implementation of pluz here
 >>>
->>> sum_js(1, 2)
+>>> pluz(1, 2)
 3
->>> sum_js('1', 2)
+>>> pluz('1', 2)
 3
->>> sum_js(1, '2')
+>>> pluz(1, '2')
 3
->>> sum_js('1', '2')
+>>> pluz('1', '2')
 '12'
->>> sum_js([1], [2])
+>>> pluz([1], [2])
 [1, 2]
->>> sum_js(1, 'a')
+>>> pluz(1, 'a')
 Traceback (most recent call last):
   File "<stdin>", line 1, in <module>
 TypeError: unsupported operand type(s) for +: 'int' and 'str'
->>> sum_js(1, [2])
+>>> pluz(1, [2])
 Traceback (most recent call last):
   File "<stdin>", line 1, in <module>
 TypeError: unsupported operand type(s) for +: 'int' and 'list'

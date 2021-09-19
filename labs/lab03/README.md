@@ -35,18 +35,18 @@ Scurvy
 [
     {
 	    "vitamin": "C",
-		"vitamers" "Ascorbic acid",
-		"solubility": "Water",
-		"daily_requirement": 90,
-		"deficiency_diseases": "Scurvy"
-	},
-	{
+	    "vitamers": "Ascorbic acid",
+	    "solubility": "Water",
+	    "daily_requirement": 90,
+	    "deficiency_diseases": "Scurvy"
+    },
+    {
 	    "vitamin": "D",
-		"vitamers" "Cholecalciferol, Ergocalciferol",
-		"solubility": "Fat",
-		"daily_requirement": 0.015,
-		"deficiency_diseases": "Rickets, Osteomalacia"
-	}
+	    "vitamers": "Cholecalciferol, Ergocalciferol",
+	    "solubility": "Fat",
+	    "daily_requirement": 0.015,
+	    "deficiency_diseases": "Rickets, Osteomalacia"
+    }
 ]
 ```
 

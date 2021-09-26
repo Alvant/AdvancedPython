@@ -97,7 +97,8 @@ python cow.py
 то будет создана картинка — поздравление с днём рождения от коровки:
 ![](./docs/happy_birthday_from_the_cow.png)
 
-Надо доработать файл с кодом, так чтобы его можно было запускать из командной строки *с передачей аргументов*: имени человека, его возраста, и пути, по которой должна быть сохранена картинка-поздравление.
+Надо доработать файл с кодом, так чтобы его можно было запускать из командной строки *с передачей аргументов*:
+имени поздравляемого, его возраста, и пути, по которому должна быть сохранена картинка-поздравление.
 Например:
 ```bash
 python cow.py --name Neo --age 5 --save-path /home/neo/hbd_neo.png
@@ -121,6 +122,7 @@ python cow.py --name Neo --age 5 --save-path /home/neo/hbd_neo.png
 >>>
 >>> slow_add(1, 2)
 Execution time: 1 s
+3
 >>>
 >>> @timeit(7)
 >>> def slow_add(a: int, b: int) -> int:
@@ -129,11 +131,17 @@ Execution time: 1 s
 ...     return a + b
 >>>
 >>> slow_add(1, 2)
-Execution time: 1 s +- 0.3 s (mean ± std. dev. of 7 runs)
+Execution time: 1 s +- 0.0003 s (mean ± std. dev. of 7 runs)
+3
 ```
 
 
 ## Ссылки
+
+### Argparser
+
+* [argparse — Parser for command-line options, arguments and sub-commands](https://docs.python.org/3/library/argparse.html). Страница документации по библиотеке, с примерами (от простых к посложнее).
+
 
 ### Декораторы
 
@@ -143,6 +151,8 @@ Execution time: 1 s +- 0.3 s (mean ± std. dev. of 7 runs)
 * [(\*) Python Wiki — PythonDecoratorLibrary](https://wiki.python.org/moin/PythonDecoratorLibrary). Очень много примеров нетривиальных (и небезынтересных) декораторов.
 * [Awesome Python Decorator](https://github.com/lord63/awesome-python-decorator). Популярный Гитхаб репозиторий с разными ссылками по декораторам (пара ссылок выше, со звёздочками, — отсюда).
 
-### Argparser
 
-* [argparse — Parser for command-line options, arguments and sub-commands](https://docs.python.org/3/library/argparse.html). Страница документации по библиотеке, с примерами (от простых к посложнее).
+### Коровка
+
+* [Cowsay](https://en.wikipedia.org/wiki/Cowsay) — программа, благодаря которой придумано задание с коровкой.
+* [Cowsay-python](https://github.com/VaasuDevanS/cowsay-python) — небольшой проект на Питоне, где есть коровка, динозавр, и ещё несколько ASCII-поздравителей.

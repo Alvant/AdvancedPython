@@ -152,8 +152,8 @@ print('margot' in data) # True
 При этом в качестве второго операнда может выступать и обычный Python словарь.
 Например:
 ```python
-data1 = CustomDict('a'=1)
-data2 = CustomDict('b'=2)
+data1 = CustomDict(a=1)
+data2 = CustomDict(b=2)
 
 print(data1 + data2)     # {'a': 1, 'b': 2}
 print(data1 + {'b': 2})  # {'a': 1, 'b': 2}

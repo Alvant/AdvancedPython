@@ -1,10 +1,28 @@
 # Lab 8. For i in Iterable: Iterate
 
-В качестве задания достаточно решить первую или вторую задачи.
+В качестве задания достаточно решить одну из задач без звёздочки.
 
 Во всех задачах, если не оговорено отдельно,
 надо либо реализовать два класса типа `Iterable` и `Iterator` (или один класс как два в одном), либо генератор.
 
+
+## Задача 1 («‎os.walk»‎)
+
+Надо реализовать а-ля `os.walk` с помощью итератора (или генератора).
+Как параметр можно использовать только путь до корневой директории.
+Например, если делать через генератор, то работа с ним должна выглядеть примерно так:
+```python
+from typing import Generator, List, Tuple
+
+
+def custom_walk(top: str) -> Generator[Tuple[str, List[str], List[str]]]:
+    pass  # TODO: code here
+
+
+for root, folders, files in custom_walk("/home/neo"):
+    # Doing something, for example:
+    print(f"Folder \"{root}\" contains {len(folders)} folders and {len(files)} files.")
+```
 
 
 
@@ -28,7 +46,7 @@ print(f"Sum of entered numbers is {total_sum}")
 
 
 
-## Задача 2 («‎Text File Lines Iterator»‎)
+## Задача 3 («‎Text File Lines Iterator»‎)
 
 Есть текстовый файл.
 Надо реализовать итератор (или генератор), который бы считывал строки этого файла.
@@ -52,9 +70,9 @@ print(f"First letters of the file's lines make up the following text: \"{possibl
 *Не забудьте, что файл следует закрыть, когда работа с ним завершена!*
 
 
-## Задача («‎Random Iterator»)
+## Задача 4 («‎Random Iterator»)
 
-### Сухое условие
+### Обычное условие
 
 Надо реализовать бесконечный итератор (или генератор), который бы на каждой итерации выдывал случайное значение из фиксированного ряда значений.
 Также итератору стоит добавить опциональный параметр, задающий максимальное число значений, которые может вернуть итератор
@@ -65,14 +83,14 @@ print(f"First letters of the file's lines make up the following text: \"{possibl
 from typing import List, Optional
 
 
-class RandomIterator:
+class RandomChoiceIterator:
     def __init__(self, values: List[int], num_iters: Optional[int] = None):
         pass  # TODO: code here
 
     # TODO: code here
 
 
-for value in RandomIterator([1, 2, 3], num_iters=5):
+for value in RandomChoiceIterator([1, 2, 3], num_iters=5):
     print(value)
 ``` 
 
@@ -106,27 +124,27 @@ for value in RandomIterator([1, 2, 3], num_iters=5):
 
 Чтобы смоделировать описанное путешествие Алисы (и понять, вернётся ли она вообще когда-нибудь из Страны Чудес),
 надо реализовать бесконечный итератор, возвращающий случайное значение из фиксированного набора значений.
-Если итератор реализован как класс с именем `RandomIterator`, то "путешествие" может быть описано так:
+Если итератор реализован как класс с именем `RandomChoiceIterator`, то "путешествие" может быть описано так:
 ```python
 ORIGINAL_HEIGHT = 120
 DELICACIES = ["bottle", "cake", "one side of the mushroom", "other side of the mushroom"]
 
 
-class RandomIterator:
+class RandomChoiceIterator:
     pass  # TODO: code here
 
 
 current_height = ORIGINAL_HEIGHT / 5
 
-for meal in RandomIterator([DELICACIES]):
-    if meal == "bottle":
+for find in RandomChoiceIterator(DELICACIES):
+    if find == "bottle":
         current_height = current_height / 5
-    elif meal == "cake":
+    elif find == "cake":
         current_height = current_height * 2.5
-    elif meal.startswith("one side"):
+    elif find.startswith("one side"):
         current_height = current_height / 2.5
     else:
-        assert meal.startswith("other side")
+        assert find.startswith("other side")
 
         current_height = current_height * 5
 
@@ -135,11 +153,17 @@ for meal in RandomIterator([DELICACIES]):
 
         break
     else:
-        print(f"Alice's current height: {current_height} != {ORIGINAL_HEIGHT}. So she continues her adventures in Wonderland...")
+        print(
+		    f"Alice found "{find}" and her current height is {current_height} != {ORIGINAL_HEIGHT}."
+			f" So Alice continues her adventures in Wonderland..."
+		)
 ```
 
 
-## Задача («‎Shuffle Me a Million Times, Million Times»‎)
+![](./docs/images/Alice.png)
+
+
+## Задача 5 («‎Shuffle Me a Million Times, Million Times»‎)
 
 Надо реализовать бесконечный итератор (или генератор), который бы на каждой итерации выдывал случайную перестановку фиксированного ряда значений.
 Также итератору стоит добавить опциональный параметр, задающий максимальное число перестановок, которые может вернуть итератор
@@ -163,7 +187,7 @@ for permutation in ShuffleIterator([1, 2, 3], num_iters=5):
 
 
 
-## Задача («‎Cyclic Iterator»‎)
+## Задача 6 («‎Cyclic Iterator»‎)
 
 Надо реализовать бесконечный итератор (или генератор), который бы на каждой итерации выдывал следующее значение из фиксированного ряда значений.
 При этом, когда итератор доходит до конца ряда, он вновь возвращается в начало.
@@ -191,28 +215,8 @@ for value in CyclicIterator([1, 2, 3], num_cycles=5):
 
 
 
-## Задача 1* («‎os.walk»‎)
 
-Надо реализовать а-ля `os.walk` с помощью итератора (или генератора).
-Чтобы можно было с ним работать так же, как с `os.walk`.
-Как параметр можно использовать только путь до корневой директории.
-Например, если делать через генератор, то работа с ним должна выглядеть примерно так
-```python
-from typing import Generator, List, Tuple
-
-
-def custom_walk(top: str) -> Generator[Tuple[str, List[str], List[str]]]:
-    pass  # TODO: code here
-
-
-for root, folders, files in custom_walk('/data/workspace'):
-    # Doing something, for example:
-    print(f"Folder \"{root}\" contains {len(folders)} folders and {len(files)} files.")
-```
-
-
-
-## Задача 3* («‎Generator Pipeline»‎)
+## Задача 7* («‎Generator Pipeline»‎)
 
 Есть массив чисел (возможно, очень большой массив).
 Надо сделать с числами ряд преобразований.
@@ -235,12 +239,11 @@ print(result_numbers)  # 1 1 0
 ```
 
 
-## Задача (My Weather Forecaster)
+## Задача 8* (My Weather Forecaster)
 
 Надо реализовать *генератор*, который бы раз в полчаса выводил на экран прогноз погоды в Долгопрудном на ближайший час.
 Если нет доспута к интернету, чтоб узнать прогноз, то генератор должен выводить `"Forecast Unavailable"`.
 И до тех пор, пока не получится вывести нормальный прогноз, каждая следующая попытка "предсказания" должна происходить не через полчаса, а через минуту после предыдущей.
-
 
 
 

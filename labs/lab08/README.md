@@ -160,7 +160,7 @@ for find in RandomChoiceIterator(DELICACIES):
 ```
 
 <p align="center">
-  <a href="https://en.wikipedia.org/wiki/Alice_(Alice%27s_Adventures_in_Wonderland)"><img src="./docs/images/Alice.png" width="10em" /></a>
+  <a href="https://en.wikipedia.org/wiki/Alice_(Alice%27s_Adventures_in_Wonderland)"><img src="./docs/images/Alice.png" width="50%" /></a>
 </p>
 <p align="center">
   <em>Alice in one of John Tenniel's illustrations for Alice's Adventures in Wonderland.</em>

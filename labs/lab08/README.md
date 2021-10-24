@@ -3,7 +3,7 @@
 В качестве задания достаточно решить одну из задач без звёздочки.
 
 Во всех задачах, если не оговорено отдельно,
-надо либо реализовать два класса типа `Iterable` и `Iterator` (или один класс как два в одном), либо генератор.
+надо либо реализовать два класса типа "Итерируемого" и "Итератора" (или один класс как два в одном), либо генератор.
 
 
 ## Задача 1 («‎os.walk»‎)
@@ -12,10 +12,10 @@
 Как параметр можно использовать только путь до корневой директории.
 Например, если делать через генератор, то работа с ним должна выглядеть примерно так:
 ```python
-from typing import Generator, List, Tuple
+from typing import Iterable, List, Tuple
 
 
-def custom_walk(top: str) -> Generator[Tuple[str, List[str], List[str]]]:
+def custom_walk(top: str) -> Iterable[Tuple[str, List[str], List[str]]]:
     pass  # TODO: code here
 
 
@@ -163,7 +163,7 @@ for find in RandomChoiceIterator(DELICACIES):
   <a href="https://en.wikipedia.org/wiki/Alice_(Alice%27s_Adventures_in_Wonderland)"><img src="./docs/images/Alice.png" width="50%" /></a>
 </p>
 <p align="center">
-  <em>Alice in one of John Tenniel's illustrations for Alice's Adventures in Wonderland.</em>
+  <em>Алиса в одной из иллюстраций Джона Тенниела для «‎Приключений Алисы в Стране чудес».</em>
 </p>
 
 

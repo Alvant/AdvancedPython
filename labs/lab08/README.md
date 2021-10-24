@@ -154,13 +154,17 @@ for find in RandomChoiceIterator(DELICACIES):
         break
     else:
         print(
-		    f"Alice found "{find}" and her current height is {current_height} != {ORIGINAL_HEIGHT}."
-			f" So Alice continues her adventures in Wonderland..."
-		)
+            f"Alice found "{find}" and her current height is {current_height} != {ORIGINAL_HEIGHT}."
+            f" So Alice continues her adventures in Wonderland..."
+        )
 ```
 
-
-![](./docs/images/Alice.png)
+<p align="center">
+  <figure>
+    <a href="https://en.wikipedia.org/wiki/Alice_(Alice%27s_Adventures_in_Wonderland)"><img src="./docs/images/Alice.png" /></a>
+    <figcaption>Alice in one of John Tenniel's illustrations for Alice's Adventures in Wonderland.</figcaption>
+  </figure>
+</p>
 
 
 ## Задача 5 («‎Shuffle Me a Million Times, Million Times»‎)

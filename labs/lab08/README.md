@@ -69,7 +69,7 @@ class RandomIterator:
     def __init__(self, values: List[int], num_iters: Optional[int] = None):
         pass  # TODO: code here
 
-	# TODO: code here
+    # TODO: code here
 
 
 for value in RandomIterator([1, 2, 3], num_iters=5):
@@ -81,7 +81,7 @@ for value in RandomIterator([1, 2, 3], num_iters=5):
 <div>
 <em>
   <p align="right">
-    ...Правило, которая Алиса никогда не забывала — что если выпить слишком много из пузырька с надписью «Яд», то почти наверняка, рано или поздно, почувствуешь недомогание.
+    ...Правило, которое Алиса никогда не забывала — что если выпить слишком много из пузырька с надписью «Яд», то почти наверняка, рано или поздно, почувствуешь недомогание.
   </p>
   <p align="right">
     («Алиса в Стране Чудес», Льюис Кэрролл. Перевод: Юрий Нестеренко)
@@ -92,14 +92,14 @@ for value in RandomIterator([1, 2, 3], num_iters=5):
 Алиса путешествует по Стране Чудес.
 И на пути ей попадаются разные съедобные предметы, которые она просто не может не попробовать.
 Так, время от времени ей встречаются:
-пузырьки с надписью "Выпей меня", пирожные с надписью "Съешь меня", кусочки одной стороны гриба, и кусочки другой сторона гриба.
+пузырьки с надписью "Выпей меня", пирожные с надписью "Съешь меня", кусочки "одной" стороны гриба, и кусочки "другой" сторона гриба.
 В Стране Чудес каждая из таких вкусняшек по-разному изменяет рост Алисы:
 * содержимое пузырька уменьшает рост Алисы в 5 раз
 * пирожное увеличивает рост Алисы в 2.5 раза
 * кусочек "одной" стороны гриба уменьшает рост Алисы в 2.5 раза
 * кусочек "другой" стороны гриба увеличивает рост Алисы в 5 раз
 
-Между каждой "находкой" Алисы проходит какое-то время, например 1 секунда.
+иМежду каждой "находкой" Алисы проходит какое-то небольшое время, например 1 секунда.
 Изначальный рост Алисы точно не известен, но можно считать его примерно равным 120 сантиметрам.
 Путешествие Алисы начинается с того, что она выпивает один из пузырьков.
 Закончится же путешествие только тогда, когда Алиса вновь вернётся к своему нормальному росту...
@@ -121,21 +121,21 @@ current_height = ORIGINAL_HEIGHT / 5
 for meal in RandomIterator([DELICACIES]):
     if meal == "bottle":
         current_height = current_height / 5
-	elif meal == "cake":
-	    current_height = current_height * 2.5
-	elif meal.startswith("one side"):
-	    current_height = current_height / 2.5
-	else:
-	    assert meal.startswith("other side")
+    elif meal == "cake":
+        current_height = current_height * 2.5
+    elif meal.startswith("one side"):
+        current_height = current_height / 2.5
+    else:
+        assert meal.startswith("other side")
 
-	    current_height = current_height * 5
+        current_height = current_height * 5
 
     if current_height == ORIGINAL_HEIGHT:
-	    print("The Adventure is finished!")
+        print("The Adventure is finished!")
 
         break
-	else:
-	    print(f"Alice's current height: {current_height} != {ORIGINAL_HEIGHT}. So she continues her adventures in Wonderland...")
+    else:
+        print(f"Alice's current height: {current_height} != {ORIGINAL_HEIGHT}. So she continues her adventures in Wonderland...")
 ```
 
 
@@ -154,7 +154,7 @@ class ShuffleIterator:
     def __init__(self, values: List[int], num_iters: Optional[int] = None):
         pass  # TODO: code here
 
-	# TODO: code here
+    # TODO: code here
 
 
 for permutation in ShuffleIterator([1, 2, 3], num_iters=5):
@@ -181,7 +181,7 @@ class CyclicIterator:
     def __init__(self, values: List[int], num_cycles: Optional[int] = None):
         pass  # TODO: code here
 
-	# TODO: code here
+    # TODO: code here
 
 
 for value in CyclicIterator([1, 2, 3], num_cycles=5):

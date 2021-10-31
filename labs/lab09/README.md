@@ -1,6 +1,33 @@
 # Lab 9. Into the Async
 
 
+Помимо лабы и задания, есть [ноутбучек](./demo/Coroutines-Into-the-Async.ipynb) про асинхронность.
+
+В качестве же задания надо решить последние два упражнения из [лабы](http://cs.mipt.ru/advanced_python/lessons/lab09.html).
+
+Но перед задачками предлагается посмотреть следующий небольшой сюжет, иллюстрирующий идею асинхронности.
+Сюжет про 
+
+## Моне и Асинхронность, или Ещё один пример, поясняющий, «про что вообще это всё»
+
+Известна [серия работ](https://ru.wikipedia.org/wiki/%D0%A0%D1%83%D0%B0%D0%BD%D1%81%D0%BA%D0%B8%D0%B9_%D1%81%D0%BE%D0%B1%D0%BE%D1%80_(%D1%81%D0%B5%D1%80%D0%B8%D1%8F_%D0%BA%D0%B0%D1%80%D1%82%D0%B8%D0%BD)) Клода Моне,
+состоящая из нескольких десятков картин, на которых художник изобразил один и тот же Руанский собор,
+с примерно одного и того же ракурса.
+Но в разное время суток и в разную погоду.
+Например, один из вариантов вечернего Руанского собора можно увидеть в Пушкинском музее:
+
+<p align="center">
+  <a href="https://commons.wikimedia.org/wiki/File:Claude_Monet_-_The_Rouen_Cathedral_at_Sunset_-_Pushkin_museum.jpg?uselang=ru">
+    <img src="./_rouen/images/256px/Claude_Monet_-_The_Rouen_Cathedral_at_Sunset_-_Pushkin_museum.jpg" alt="The Rouen Cathedral at Sunset — Pushkin museum" />
+  </a>
+</p>
+<p align="center">
+  <em>«Руанский собор вечером» (Le Cathédrale de Rouen). Находится в Пушкинском музее, Москва</em>
+</p>
+
+Нам же будет интересна эта серия работ Клода Моне не с художественной, а с... "времязатратной" точки зрения.
+Очевидно
+
 <p align="center">
   <a href="https://media.giphy.com/media/bZADBEMYl3AiNlYngs/giphy.gif">
     <img src="https://camo.githubusercontent.com/b62a3047edd43d526b75b67fcd09c13f2cbccf4a57db4260c3a3b3770d2c47ab/68747470733a2f2f6d656469612e67697068792e636f6d2f6d656469612f625a414442454d596c3341694e6c596e67732f67697068792e676966" alt="Rouen Cathedral: Sync Vs. Async" title="Lalala. Part 3" data-canonical-src="https://media.giphy.com/media/bZADBEMYl3AiNlYngs/giphy.gif" />
@@ -14,15 +41,12 @@
 
 
 
-Помимо лабы и задания, есть [небольшой ноутбук](./demo/Coroutines-Into-the-Async.ipynb) про асинхронность.
-
-В качестве же задания надо решить последние два упражнения из [лабы](http://cs.mipt.ru/advanced_python/lessons/lab09.html).
-
 ## Задача 1 (a.k.a. Упражнение 4)
 
 От некоторого устройства в режиме реального времени приходят данные.
 Необходимо написать сопрограмму, которая вычисляет среднее, дисперсию, а также количество элементов в переданном наборе данных с устройства.
 Результаты работы сопрограмма должна выдавать при отправке соответствующих сигналов.
+
 
 ## Задача 2 (a.k.a. Упражнение 5)
 
@@ -117,3 +141,9 @@ def connection():
 for i in connection():
     print(i)
 ```
+
+
+## Ссылки
+
+* [Статья про серию «Руанский собор»](https://marinagra.livejournal.com/151423.html)
+

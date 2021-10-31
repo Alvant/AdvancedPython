@@ -1,8 +1,14 @@
 # Lab 9. Into the Async
 
 
-![](https://media.giphy.com/media/bZADBEMYl3AiNlYngs/giphy.gif "Lalala. Part 3")
-
+<p align="center">
+  <a href="https://media.giphy.com/media/bZADBEMYl3AiNlYngs/giphy.gif">
+    <img src="https://camo.githubusercontent.com/b62a3047edd43d526b75b67fcd09c13f2cbccf4a57db4260c3a3b3770d2c47ab/68747470733a2f2f6d656469612e67697068792e636f6d2f6d656469612f625a414442454d596c3341694e6c596e67732f67697068792e676966" alt="Rouen Cathedral: Sync Vs. Async" title="Lalala. Part 3" data-canonical-src="https://media.giphy.com/media/bZADBEMYl3AiNlYngs/giphy.gif" />
+  </a>
+</p>
+<p align="center">
+  <em>Rouen Cathedral: Sync Vs. Async</em>
+</p>
 
 
 

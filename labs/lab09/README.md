@@ -1,5 +1,13 @@
 # Lab 9. Into the Async
 
+
+![](https://media.giphy.com/media/bZADBEMYl3AiNlYngs/giphy.gif "Lalala. Part 3")
+
+
+
+
+
+
 Помимо лабы и задания, есть [небольшой ноутбук](./demo/Coroutines-Into-the-Async.ipynb) про асинхронность.
 
 В качестве же задания надо решить последние два упражнения из [лабы](http://cs.mipt.ru/advanced_python/lessons/lab09.html).

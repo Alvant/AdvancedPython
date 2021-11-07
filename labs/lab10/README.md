@@ -9,7 +9,7 @@
 Надо разложить на простые множители ряд натуральных чисел, которые передаются программе как агрументы командной строки.
 Результат разложения на множители каждого числа надо вывести на стандартный вывод, причём в том же порядке, как числа поступали на вход.
 Например, если программа называется `prime_factorization.py`, то работать она должна как-то так:
-```python
+```bash
 $ python prime_factorization.py 4 625 7 12 22
 4: 2 2
 625: 5 5 5 5
@@ -31,7 +31,7 @@ $ python prime_factorization.py 4 625 7 12 22
 Подстрока и путь до директории передаются программе как аргументы командной строки.
 Результат поиска — строки в файлах, где встречается указанная подстрока.
 Если программа называется `custom_grep.py`, а книги лежат в папке `books` (и там, например, есть книги `Favourite-Fairy-Tales.txt` и `English-Fairy-Tales.txt`), то должна быть возможность сделать и получить что-то такое:
-```python
+```bash
 $ python custom_grep.py princess ./books
 Favourite-Fairy-Tales.txt: beautiful young lady, evidently some princess,
 Favourite-Fairy-Tales.txt: and handsome princess ever beheld was there,

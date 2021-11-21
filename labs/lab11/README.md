@@ -1,6 +1,7 @@
 # Lab 11. Asyncio
 
-В качестве задания предлагается посмотреть последние упражнения из [лабы про asyncio](http://cs.mipt.ru/advanced_python/lessons/lab10.html) — которые так и озаглавлены: «Задания на дом» :)
+В качестве задания предлагается посмотреть последние упражнения из [лабы про asyncio](http://cs.mipt.ru/advanced_python/lessons/lab10.html)
+(которые даже так и озаглавлены: «Задания на дом»).
 
 
 # Задача 1 (a.k.a. «Упражнение 2», или «What is My IP?»)
@@ -28,12 +29,8 @@ class Service:
 
 
 SERVICES = (
-    Service(
-        name='ipify', url='https://api.ipify.org?format=json', ip_attribute='ip'
-    ),
-    Service(
-        name='ip-api', url='http://ip-api.com/json', ip_attribute='query'
-    ),
+    Service(name='ipify', url='https://api.ipify.org?format=json', ip_attribute='ip'),
+    Service(name='ip-api', url='http://ip-api.com/json', ip_attribute='query'),
 )
 
 
@@ -105,7 +102,7 @@ if __name__ == '__main__':
 
 ## P.P.S.
 
-Экспериментально установлено, что код с ботом может не работать в Jupyter ноутбуке — и это не из-за строчки `if __name__ == '__main__'` :)
+Экспериментально установлено, что код с ботом может не работать в Jupyter ноутбуке.
 Стоит писать всё в .py файле и его же и запускать из консоли.
 
 ## P.P.P.S

@@ -2,10 +2,10 @@
 
 <div>
     <div style="display: inline-block;">
-        <img src="images/panda_crossed.jpg" width="48%">
+        <img src="images/panda_crossed.jpg" width="20%">
     </div>
 	<div style="display: inline-block;">
-        <img src="images/pandas.jpg" width="48%">
+        <img src="images/pandas.jpg" width="20%">
     </div>
 </div>
 

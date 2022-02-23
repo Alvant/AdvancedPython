@@ -1,0 +1,15 @@
+# Lab 17. Pandas
+
+<div>
+    <div style="display: inline-block; width: 48%;">
+        <img src="images/panda_crossed.jpg">
+    </div>
+    
+	<div style="display: inline-block; width: 48%;">
+        <img src="images/pandas.jpg">
+    </div>
+</div>
+
+
+В качестве задания предлагается посмотреть контест в конце соответствующей [лабы](http://cs.mipt.ru/advanced_python/lessons/lab17.html).
+Достаточно решить любые три задачи из пяти и оформить решения в виде отдельного пулл-реквеста.

@@ -1,13 +1,12 @@
 # Lab 17. Pandas
 
-<div>
-    <div style="display: inline-block;">
-        <img src="images/panda_crossed.jpg" width="20%">
-    </div>
-	<div style="display: inline-block;">
-        <img src="images/pandas.jpg" width="20%">
-    </div>
-</div>
+<!--
+https://stackoverflow.com/questions/24319505/how-can-one-display-images-side-by-side-in-a-github-readme-md
+-->
+<p float="middle">
+    <img src="images/panda_crossed.jpg" width="20%">
+    <img src="images/pandas.jpg" width="20%">
+</p>
 
 
 В качестве задания предлагается посмотреть контест в конце соответствующей [лабы](http://cs.mipt.ru/advanced_python/lessons/lab17.html).

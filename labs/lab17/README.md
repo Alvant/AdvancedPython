@@ -1,12 +1,11 @@
 # Lab 17. Pandas
 
 <div>
-    <div style="display: inline-block; width: 48%;">
-        <img src="images/panda_crossed.jpg">
+    <div style="display: inline-block;">
+        <img src="images/panda_crossed.jpg" width="48%">
     </div>
-    
-	<div style="display: inline-block; width: 48%;">
-        <img src="images/pandas.jpg">
+	<div style="display: inline-block;">
+        <img src="images/pandas.jpg" width="48%">
     </div>
 </div>
 

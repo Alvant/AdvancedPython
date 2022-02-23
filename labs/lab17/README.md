@@ -3,7 +3,7 @@
 <!--
 https://stackoverflow.com/questions/24319505/how-can-one-display-images-side-by-side-in-a-github-readme-md
 -->
-<p float="middle">
+<p align="middle">
     <img src="images/panda_crossed.jpg" width="40%">
     <img src="images/pandas.jpg" width="40%">
 </p>

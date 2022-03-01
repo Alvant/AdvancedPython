@@ -28,8 +28,12 @@
   <img src="./images/heart1.png" alt="Alt txt" title="Title txt" />
 </p>
 
+
 ## Задание 4* (Heart 2)
 
+<p align="center">
+  <img src="./images/heart2.html" alt="Alt txt" title="Title txt" />
+</p>
 
 
 

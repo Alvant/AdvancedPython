@@ -39,7 +39,7 @@
 <!-- https://ezgif.com/crop -->
 
 <p align="center">
-   <img src="./images/heart2/heart2.gif" alt="Animated Heart" title="Heart 2" />
+   <img src="./images/heart2/heart2_forever.gif" alt="Animated Heart" title="Heart 2" />
 </p>
 
 

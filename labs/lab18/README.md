@@ -24,12 +24,16 @@
 
 ## Задание 3* (Heart 1)
 
+Надо нарисовать с помощью `matplotlib` график, максимально похожий на следующий:
+
 <p align="center">
   <img src="./images/heart1.png" alt="Filled Heart" title="Heart 1" />
 </p>
 
 
 ## Задание 4* (Heart 2)
+
+Надо нарисовать график, максимально похожий на следующий:
 
 <!-- https://html5animationtogif.com/ -->
 <!-- https://ezgif.com/crop -->
@@ -38,6 +42,9 @@
    <img src="./images/heart2/heart2.gif" alt="Animated Heart" title="Heart 2" />
 </p>
 
+
+Рисовать надо в Питоне.
+Формат файла с графиком может быть любым (но это должен быть один читаемый файл).
 
 
 # Ссылки

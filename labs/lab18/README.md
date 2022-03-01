@@ -25,14 +25,17 @@
 ## Задание 3* (Heart 1)
 
 <p align="center">
-  <img src="./images/heart1.png" alt="Alt txt" title="Title txt" />
+  <img src="./images/heart1.png" alt="Filled Heart" title="Heart 1" />
 </p>
 
 
 ## Задание 4* (Heart 2)
 
+<!-- https://html5animationtogif.com/ -->
+<!-- https://ezgif.com/crop -->
+
 <p align="center">
-  <img src="./images/heart2.html" alt="Alt txt" title="Title txt" />
+   <img src="./images/heart2/heart2.gif" alt="Animated Heart" title="Heart 2" />
 </p>
 
 

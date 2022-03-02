@@ -27,7 +27,7 @@
 Надо нарисовать с помощью `matplotlib` график, максимально похожий на следующий:
 
 <p align="center">
-  <img src="./images/heart1.png" alt="Filled Heart" title="Heart 1" width="70%" />
+  <img src="./images/heart1.png" alt="Filled Heart" title="Heart 1" width="60%" />
 </p>
 
 

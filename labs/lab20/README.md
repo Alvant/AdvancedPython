@@ -2,7 +2,7 @@
 
 <p align="center">
   <a href="https://www.pinterest.ru/pin/9077636719014655">
-    <img src="./docs/SQLInPython.png" width="50%" />
+    <img src="./images/SQLInPython.png" width="50%" />
   </a>
 </p>
 

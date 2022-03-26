@@ -1,0 +1,44 @@
+html {
+	background-color: #ffd3f3;
+	text-align: center;
+}
+
+
+#header {
+	color: #1b1116;
+	font-style: italic;
+}
+
+
+#recipe {
+	text-align: center;
+	margin-top: 2em;
+}
+
+
+#ingredients {
+	display: inline-block;
+	text-align: left;
+	margin-right: 10em;
+}
+
+
+#farewell {
+	font-style: italic;
+	font-size: 1.5em;
+	text-align: right;
+	margin-left: 5em;
+	margin-right: 2em;
+}
+
+
+#comment {
+	width: 50%;
+	height: 5em;
+}
+
+
+#comment_history {
+	width: 100%;
+	height: 20em;
+}

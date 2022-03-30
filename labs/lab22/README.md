@@ -1,5 +1,7 @@
 # Lab 22. Flask
 
+[Ссылка на лабу](https://github.com/mipt-cs/course-advanced_python/blob/master/content/lab22.rst).
+
 Предлагается сделать какое-нибудь одно из заданий.
 
 

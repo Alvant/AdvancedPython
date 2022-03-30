@@ -3,8 +3,13 @@ html {
 	text-align: center;
 }
 
+#recipe_list {
+	display: flex;
+	justify-content: center;
+	margin-top: 2em;
+}
 
-#header {
+.header {
 	color: #1b1116;
 	font-style: italic;
 }

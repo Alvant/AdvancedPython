@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>Apple Pie</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="/static/style.css">
+	</head>
+
+	<body>
+		<h1 class="header">Рецепт яблочного пирога</h1>
+
+		<div id="recipe">
+			<div id="ingredients">
+				<ul>
+					<li>яблоко</li>
+					<li>мука</li>
+					<li>яйца</li>
+					<li>сахар</li>
+					<li>молоко</li>
+					<li>разрыхлитель</li>
+					<li>корица</li>
+					<li>масло сливочное</li>
+					<li>любовь</li>
+				</ul>
+			</div>
+			<div style="display: inline;">
+				<img src="/static/images/pie.jpg" width="25%">
+			</div>
+			<div style="display: inline-block;">
+				<p id="farewell">Bon Appétit!</p>
+			</div>
+		</div>
+
+
+		<form method="post" action="{{ url_for('apple_pie') }}">
+			<label for="comment">Comment</label>
+			<textarea name="comment" id="comment" required></textarea>
+			<input type="submit" value="Send">
+		</form>
+
+		<textarea id="comment_history">
+			{{ comments_text }}
+		</textarea>
+
+		<!--
+		{% for comment in session['comments'] %}
+			<p>[{{ comment[1] }}]: {{ comment[0] }}</p>
+		{% endfor %}
+		-->
+
+
+	</body>
+
+	<script src="/static/script.js"></script>
+</html>

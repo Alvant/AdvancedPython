@@ -1,6 +1,7 @@
 # Lab 3. Files & Exceptions
 
 [Демо ноутбук по файлам](./demo/Files.ipynb).
+По заданию достаточно решить любую из первых трёх задач.
 
 
 ## Задача 1 («Файловая солянка»)
@@ -61,26 +62,43 @@ file.txt file.json file.csv
 
 
 ## Задача 2 («Custom grep»)
-Напишите функцию – аналог [Питоновской `os.walk`](https://docs.python.org/3/library/os.html#os.walk):
 
-## Задача 2* («Custom walk»)
-
-Напишите функцию – аналог [Питоновской `os.walk`](https://docs.python.org/3/library/os.html#os.walk):
+Напишите следующую функцию – аналог [линуксовской `grep`](https://man7.org/linux/man-pages/man1/grep.1.html).
+Она принимает на вход строку `pattern` и путь до файла текстового `file`.
+И возвращает список из строк в указанном файле, в которых встречается указанная подстрока.
 ```python
-def walk(top: str):
+from typing import List
 
+
+def grep(pattern: str, file: str) -> List[str]:
+    pass
 ```
 
 
-## Задача 3* («Custom rmtree»)
+## Задача 3 («Custom walk»)
 
-Напишите функцию – аналог [Питоновской `shutil.rmtree`](https://docs.python.org/3/library/shutil.html#shutil.rmtree):
+Напишите следующую функцию – аналог [питоновской `os.walk`](https://docs.python.org/3/library/os.html#os.walk).
+Она принимает на вход путь до папки `top`.
+И возвращает список из кортежей `(root, dirs, files)`, где `root` — подпапка папки `top`, `dirs` — список директорий в подпапке `root`, `files` — список файлов в подпапке `root` (таким образом, *кортежей `(root, dirs, files)` должно быть возвращено столько же, сколько всего папок есть в `root`*):
 ```python
-def rmtree(path: str)
+from typing import List, Tuple
+
+
+def walk(top: str) -> List[Tuple]:
+    pass
 ```
 
 
-## Задача 2* («Pluz»)
+## Задача 4* («Custom rmtree»)
+
+Напишите функцию – аналог [Питоновской `shutil.rmtree`](https://docs.python.org/3/library/shutil.html#shutil.rmtree), которая удаляет с диска папку по пути `path` (осторожно!):
+```python
+def rmtree(path: str) -> None:
+    pass
+```
+
+
+## Задача 5* («Pluz»)
 
 Надо написать функцию `pluz` от двух аргументов, которая работает как обычное сложение в Питоне.
 С тем исключением, что если ей на вход подать число `n` и строку `s`, которая может быть успешно приведена к числовому типу,
@@ -111,7 +129,24 @@ Traceback (most recent call last):
 TypeError: unsupported operand type(s) for +: 'int' and 'list'
 ```
 
+
+## Задача 6* («Cake»)
+
+Напишите функцию `eat_cake`, которая работает следующим образом:
+* до 18:00 возвращает строку "cake"
+* после 18:00 выбрасывает исключение `Exception` с сообщением "No, no, it's too late! Botay or go bye-bye."
+
+Пример работы:
+```
+>>> eat_cake()  # До 18:00
+'cake'
+>>> eat_cake()  # После 18:00
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+Exception: No, no, it's too late! Botay or go bye-bye.
+```
+
+
 ## P.S.
 
-* Vitamins (full version): https://en.wikipedia.org/wiki/Vitamin#List
 * JavaScript's "pluz": https://github.com/denysdovhan/wtfjs#funny-math

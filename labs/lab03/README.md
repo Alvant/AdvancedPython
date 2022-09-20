@@ -153,6 +153,30 @@ Exception: No, no, it's too late! Botay or go bye-bye.
 ```
 
 
+## Задача 7* («Cake 2, or Rules Are Made To Be Broken»)
+
+Напишите функцию `eat_something_tasty_anyway`, которая работает следующим образом:
+* внутри вызывает функцию `eat_cake`
+* если ошибки не возникает, то возвращает результат работы `eat_cake`
+* в случае же ошибки, возвращает строку "pizza"
+```python
+# Функция из предыдущей задачи
+def eat_cake() -> str:
+    pass
+
+# Обязательно вызывает внутри eat_cake
+def eat_something_tasty_anyway() -> str:
+    pass
+```
+Пример работы:
+```
+>>> eat_something_tasty_anyway()  # Когда можно съесть пирожное
+'cake'
+>>> eat_something_tasty_anyway()  # Когда пирожные есть уже нельзя
+'pizza'
+```
+
+
 ## P.S.
 
 * JavaScript's "pluz": https://github.com/denysdovhan/wtfjs#funny-math.

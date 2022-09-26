@@ -92,7 +92,7 @@ $ python chamomile_divination_for_natasha.py \
 
 ## Задача 3 («‎Михаэлис — Ментен»‎)
 
-Напишите программу `michaelis_menten.py`, позволяющую рассчитать [скорость реакции, катализируемой ферментом, по концентрации субстрата](https://en.wikipedia.org/wiki/Michaelis%E2%80%93Menten_kinetics).
+Напишите программу `michaelis_menten.py`, [позволяющую по концентрации субстрата рассчитать скорость реакции, катализируемой ферментом](https://en.wikipedia.org/wiki/Michaelis%E2%80%93Menten_kinetics).
 Программа запускается из командной строки.
 
 

@@ -484,10 +484,10 @@ x = x * alpha
 
 Возможный пример работы:
 ```python
-vec1 = QuantVector(values=[-17.5, 0.01, 2022], num_bits=4)
-vec2 = QuantVector(values=[2.1, 2.49, 2.001], num_bits=4)
+vec1 = QuantVector(values=[-17.5, 1.7, 2022], num_bits=4)
+vec2 = QuantVector(values=[2.01, -0.5, 1], num_bits=4)
 
-print(vec1)         # [-8, 0, 8] (qint4)
-print(vec2)         # [2, 2, 2] (qint4)
-print(vec1 + vec2)  # [-8, 3, 8] (qint4)
+print(vec1)         # QInt4([0, 0, 8], alpha=2022)
+print(vec2)         # QInt4([8, -2, 4], alpha=2.01)
+print(vec1 + vec2)  # QInt4([0, 0, 8], alpha=2022)
 ```

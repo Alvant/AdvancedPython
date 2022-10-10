@@ -1,6 +1,8 @@
 # Lab 6. Magic
 
-<img src="./images/SpongeBob-Pythonbow.png" alt="Magic in Python" width="75%" />
+<p align="center">
+  <img src="./images/SpongeBob-Pythonbow.png" alt="Magic in Python" width="75%" />
+</p>
 
 Достаточно решить любую задачу без звёздочки.
 
@@ -458,9 +460,8 @@ sign = x_clamped.sign()
 x_abs = x_clamped.abs()
 
 # Квантование
-x_quant = x_abs
-    .mul(2 ** num_bits - 1)
-    .round()
+x_quant = x_abs.mul(2 ** num_bits - 1)
+x_quant = x_quant.round()
 ```
 
 Чтобы потом получить из квантованного `x` флотовое значение, надо провести "деквантизацию":

@@ -487,10 +487,10 @@ x = x * alpha
 vec1 = QuantVector(values=[-17.5, 300, 2022], num_bits=4)
 vec2 = QuantVector(values=[2.01, -0.53, 1.02], num_bits=4)
 
-print(vec1)         # [0, 252.75, 2022]_q
-print(vec2)         # [2.01, -0.5025, 1.005]_q
+print(vec1)  # [0, 252.75, 2022]_q
+print(vec2)  # [2.01, -0.5025, 1.005]_q
 
-print(repr(vec1))   # QInt4(values=[0, 1, 8], alpha=2022)
-print(repr(vec2))   # QInt4(values=[8, -2, 4], alpha=2.01)
-print(vec1 + vec2)  # QInt4(values=[0, 1, 8], alpha=2022)
+print(repr(vec1))         # QInt4(values=[0, 1, 8], alpha=2022)
+print(repr(vec2))         # QInt4(values=[8, -2, 4], alpha=2.01)
+print(repr(vec1 + vec2))  # QInt4(values=[0, 1, 8], alpha=2022)
 ```

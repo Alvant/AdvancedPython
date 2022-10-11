@@ -4,6 +4,8 @@
   <img src="./images/SpongeBob-Pythonbow.png" alt="Magic in Python" width="75%" />
 </p>
 
+[Демо ноутбук](./demo/Magic.ipynb).
+
 Достаточно решить любую задачу без звёздочки.
 
 

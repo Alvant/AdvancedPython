@@ -190,7 +190,7 @@ for find in RandomChoiceIterator(DELICACIES):
 ```
 
 <p align="center">
-  <a href="https://en.wikipedia.org/wiki/Alice_(Alice%27s_Adventures_in_Wonderland)"><img src="./docs/images/Alice.png" width="30%" /></a>
+  <a href="https://en.wikipedia.org/wiki/Alice_(Alice%27s_Adventures_in_Wonderland)"><img src="./docs/images/Alice.png" width="35%" /></a>
 </p>
 <p align="center">
   <em>Алиса собирается выпить "пузырёк" на одной из иллюстраций Джона&nbsp;Тенниела для&nbsp;«‎Приключений&nbsp;Алисы&nbsp;в&nbsp;Стране&nbsp;чудес».</em>

@@ -26,7 +26,7 @@ for line in grep(pattern="How could I know", file="Lost_in_Space.txt"):
 
 *Раз это аналог `grep`, то никакой другой `grep` внутри вызывать нельзя!*
 
-P.S. [Ссылка на первую часть ‎«Custom Grep»](https://github.com/Alvant/AdvancedPython/tree/master2022/labs/lab03#%D0%B7%D0%B0%D0%B4%D0%B0%D1%87%D0%B0-2-custom-grep).
+P.S. [Ссылка на первый вариант ‎«Custom Grep»](https://github.com/Alvant/AdvancedPython/tree/master2022/labs/lab03#%D0%B7%D0%B0%D0%B4%D0%B0%D1%87%D0%B0-2-custom-grep).
 
 
 ## Задача 2 («Custom Walk 2»)
@@ -50,7 +50,7 @@ for root, folders, files in walk("/home/neo"):
 
 *Раз это аналог `walk`, то никакой другой `walk` внутри вызывать нельзя!*
 
-P.S. [Ссылка на первую часть ‎«Custom Walk»](https://github.com/Alvant/AdvancedPython/tree/master2022/labs/lab03#%D0%B7%D0%B0%D0%B4%D0%B0%D1%87%D0%B0-3-custom-walk).
+P.S. [Ссылка на первый вариант ‎«Custom Walk»](https://github.com/Alvant/AdvancedPython/tree/master2022/labs/lab03#%D0%B7%D0%B0%D0%B4%D0%B0%D1%87%D0%B0-3-custom-walk).
 
 
 ## Задача 3 («‎Standard Input Iterator»‎)

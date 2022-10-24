@@ -6,7 +6,7 @@
 надо либо реализовать два класса типа "Итерируемого" и "Итератора" (или один класс как два в одном), либо генератор.
 
 
-## Задача 1 («Custom `grep` 2»)
+## Задача 1 («Custom Grep 2»)
 
 Напишите "функцию" (итератор или генератор) – аналог [линуксовской `grep`](https://man7.org/linux/man-pages/man1/grep.1.html).
 Она принимает на вход строку `pattern` и путь до текстового файла `file`.
@@ -26,10 +26,10 @@ for line in grep(pattern="How could I know", file="Lost_in_Space.txt"):
 
 *Раз это аналог `grep`, то никакой другой `grep` внутри вызывать нельзя!*
 
-P.S. [Ссылка на первую часть ‎Custom `grep`](https://github.com/Alvant/AdvancedPython/tree/master2022/labs/lab03#%D0%B7%D0%B0%D0%B4%D0%B0%D1%87%D0%B0-2-custom-grep).
+P.S. [Ссылка на первую часть ‎«Custom Grep»](https://github.com/Alvant/AdvancedPython/tree/master2022/labs/lab03#%D0%B7%D0%B0%D0%B4%D0%B0%D1%87%D0%B0-2-custom-grep).
 
 
-## Задача 2 («Custom `walk` 2»)
+## Задача 2 («Custom Walk 2»)
 
 Напишите "функцию" (итератор или генератор) – аналог [питоновской `os.walk`](https://docs.python.org/3/library/os.html#os.walk).
 Она принимает на вход путь до корневой папки `top`.
@@ -50,7 +50,7 @@ for root, folders, files in walk("/home/neo"):
 
 *Раз это аналог `walk`, то никакой другой `walk` внутри вызывать нельзя!*
 
-P.S. [Ссылка на первую часть ‎Custom `walk`](https://github.com/Alvant/AdvancedPython/tree/master2022/labs/lab03#%D0%B7%D0%B0%D0%B4%D0%B0%D1%87%D0%B0-3-custom-walk).
+P.S. [Ссылка на первую часть ‎«Custom Walk»](https://github.com/Alvant/AdvancedPython/tree/master2022/labs/lab03#%D0%B7%D0%B0%D0%B4%D0%B0%D1%87%D0%B0-3-custom-walk).
 
 
 ## Задача 3 («‎Standard Input Iterator»‎)
@@ -190,7 +190,7 @@ for find in RandomChoiceIterator(DELICACIES):
 ```
 
 <p align="center">
-  <a href="https://en.wikipedia.org/wiki/Alice_(Alice%27s_Adventures_in_Wonderland)"><img src="./docs/images/Alice.png" width="50%" /></a>
+  <a href="https://en.wikipedia.org/wiki/Alice_(Alice%27s_Adventures_in_Wonderland)"><img src="./docs/images/Alice.png" width="30%" /></a>
 </p>
 <p align="center">
   <em>Алиса собирается выпить "пузырёк" на одной из иллюстраций Джона&nbsp;Тенниела для&nbsp;«‎Приключений&nbsp;Алисы&nbsp;в&nbsp;Стране&nbsp;чудес».</em>
@@ -248,18 +248,18 @@ for value in CyclicIterator([1, 2, 3], num_cycles=5):
 
 ## Задача 8 («‎Chamomile Divination 2»‎)
 
-[Ссылка на первую часть ‎Chamomile Divination](https://github.com/Alvant/AdvancedPython/tree/master2022/labs/lab04#%D0%B7%D0%B0%D0%B4%D0%B0%D1%87%D0%B0-2-chamomile-divination), где мы познакомились с Наташей и её "нестандартным способом гадания на ромашке".
+[Не так давно мы познакомились с Наташей и её "нестандартным способом гадания на ромашке"](https://github.com/Alvant/AdvancedPython/tree/master2022/labs/lab04#%D0%B7%D0%B0%D0%B4%D0%B0%D1%87%D0%B0-2-chamomile-divination).
 
-Наташа снова хочет погадать на ромашках.
-Но предыдущая программа ей не очень пригодилась: ведь сразу узнавать ответ — не интересно.
-Да и вряд ли это вообще можно было считать полноценным гаданием на ромашке...
+Наташа снова хочет погадать.
+Но предыдущая программа ей не пригодилась: ведь сразу узнавать ответ — не очень интересно.
+Да и вообще вряд ли это можно было считать гаданием...
 
 Помогите Наташе!
-напишите программу, реализующую "полноценное гадание" — возможность по-честному пройтись по лепесткам всех ромашек.
+напишите программу, реализующую "полноценное гадание" на ромашках — возможность по-честному пройтись по лепесткам всех ромашек.
 Лепестки должны "обрываться" в цикле `for` с помощью итератора или генератора.
 При создании на вход итератору (или генератору) подаётся список чисел лепестков на ромашках Наташи и слово – начало гадания.
 
-Возможный пример работы (в случае если реализован итератор или генератор с именем `‎chamomile_divine`):
+Если реализован итератор или генератор с именем `‎chamomile_divine`, то работа с ним может выглядеть так:
 ```python
 >>> for guess in chamomile_divine(petal_numbers=[5, 2, 3], divination_start="не любит"):
 ...     print(guess)
@@ -307,7 +307,7 @@ TypeError: 'int' object is not iterable
 Напишите итератор (или генератор), принимающий на вход целое число, и отдающий по одной цифре этого числа на каждой итерации начиная со старшего разряда.
 У итератора также должен быть один опциональный параметр — основание системы счисления, в которой должно происходить итерирование по цифрам числа.
 По умолчанию система счисления — десятичная.
-На вход всегда поступает число в десятичной системе счисления.
+На вход итератору (генератору) всегда поступает число в десятичной системе счисления.
 
 Например, если итератор называется `split_digits`, то работа с ним может выглядеть так:
 ```python

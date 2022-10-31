@@ -3,6 +3,7 @@
 В качестве задания надо решить последние два упражнения из [лабы](http://cs.mipt.ru/advanced_python/lessons/lab09.html).
 Но перед задачками предлагается отвлечься на следующий небольшой сюжет, иллюстрирующий идею асинхронности...
 
+
 <h2>
   <p align="center">Моне и асинхронность,<br />
   или Ещё один пример, поясняющий, «про что вообще это всё»</p>
@@ -16,7 +17,7 @@
 
 <p align="center">
   <a href="https://commons.wikimedia.org/wiki/File:Claude_Monet_-_The_Rouen_Cathedral_at_Sunset_-_Pushkin_museum.jpg?uselang=ru">
-    <img src="./images/256px/Claude_Monet_-_The_Rouen_Cathedral_at_Sunset_-_Pushkin_museum.jpg" alt="The Rouen Cathedral at Sunset — Pushkin museum" />
+    <img src="https://raw.githubusercontent.com/Alvant/AdvancedPython/master2021/labs/lab09/_rouen/images/256px/Claude_Monet_-_The_Rouen_Cathedral_at_Sunset_-_Pushkin_museum.jpg" alt="The Rouen Cathedral at Sunset — Pushkin museum" />
   </a>
 </p>
 <p align="center">

@@ -167,8 +167,8 @@ for i in connection():
 
 ## Задача 3* («‎Chamomile Divination 3»‎)
 
-* [Часть 2](https://github.com/Alvant/AdvancedPython/blob/master2022/labs/lab08/README.md#%D0%B7%D0%B0%D0%B4%D0%B0%D1%87%D0%B0-8-chamomile-divination-2)
-* [Часть 1](https://github.com/Alvant/AdvancedPython/tree/master2022/labs/lab04#%D0%B7%D0%B0%D0%B4%D0%B0%D1%87%D0%B0-2-chamomile-divination)
+* [Chamomile Divination 1](https://github.com/Alvant/AdvancedPython/tree/master2022/labs/lab04#%D0%B7%D0%B0%D0%B4%D0%B0%D1%87%D0%B0-2-chamomile-divination)
+* [Chamomile Divination 2](https://github.com/Alvant/AdvancedPython/blob/master2022/labs/lab08/README.md#%D0%B7%D0%B0%D0%B4%D0%B0%D1%87%D0%B0-8-chamomile-divination-2)
 
 <p>
 <em>

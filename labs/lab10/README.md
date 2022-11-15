@@ -1,5 +1,7 @@
 # Lab 10. Asyncio
 
+[Демо-ноутбук по asyncio](./demo/Async.ipynb).
+
 В качестве задания предлагается посмотреть последние упражнения из [лабы про asyncio](http://cs.mipt.ru/advanced_python/lessons/lab10.html)
 (которые даже так и озаглавлены: «Задания на дом»).
 

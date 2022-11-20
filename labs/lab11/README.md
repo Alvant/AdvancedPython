@@ -61,12 +61,6 @@ English-Fairy-Tales.txt: mill-wheels. And then they took out the princess and
 
 ## Задача 5* («‎Chamomile Divination 4»‎)
 
-* [Chamomile Divination 1](https://github.com/Alvant/AdvancedPython/tree/master2022/labs/lab04#%D0%B7%D0%B0%D0%B4%D0%B0%D1%87%D0%B0-2-chamomile-divination)
-* [Chamomile Divination 2](https://github.com/Alvant/AdvancedPython/blob/master2022/labs/lab08/README.md#%D0%B7%D0%B0%D0%B4%D0%B0%D1%87%D0%B0-8-chamomile-divination-2)
-* [Chamomile Divination 3](https://github.com/Alvant/AdvancedPython/tree/master2022/labs/lab09#%D0%B7%D0%B0%D0%B4%D0%B0%D1%87%D0%B0-3-chamomile-divination-3)
-
-
-
 <div>
 <em>
   <p align="right">
@@ -78,7 +72,7 @@ English-Fairy-Tales.txt: mill-wheels. And then they took out the princess and
 	И вот, за поворотом —<br>
 	Огонь в глаза:<br>
 	Ромашковое поле,<br>
-	Без края и конца.
+	Без края и конца...
   </p>
 </em>
 </div>
@@ -108,12 +102,11 @@ English-Fairy-Tales.txt: mill-wheels. And then they took out the princess and
 На вход программе, как и раньше, подаётся список чисел лепестков на ромашках `petal_numbers` и слово – начало гадания `divination_start`.
 С указанного слова `divination_start` начинают обрываться лепестки каждой ромашки.
 Но теперь ромашки должны обраваться в нескольких *потоках* (или *процессах*? — Наташа точно не знает, что лучше, поэтому она просит, чтобы вы сами выбрали то, что в данной ситуации лучше использовать).
-
 Обрывание лепестков одной ромашки – отдельная функция, которая может выполняться в нити/процессе.
 В основной программе должно произойти, во-первых, распределение задач (в количестве, равном числу ромашек) по нитям/процессам.
-И, во-вторых, надо *сагрегировать* результаты предсказаний отдельных ромашек: итоговое предсказание будет "любит", если большинство ромашек скажут "любит"; иначе – "не любит" (то есть даже есть предсказания разбились 50/50).
+И, во-вторых, надо *сагрегировать* результаты предсказаний отдельных ромашек: итоговое предсказание будет "любит", если большинство ромашек скажут "любит"; иначе – "не любит" (то есть даже есть предсказания разобьются 50/50).
 
-*Псевдокод* программы, реализующей предлагаемый в этот раз Наташей способ гадания по ромашкам:
+*Псевдокод* программы, реализующей предлагаемый Наташей способ гадания по ромашкам:
 ```
 petal_numbers <- INPUT
 divination_start <- INPUT
@@ -128,3 +121,9 @@ final_prediction = count_max(predictions)
 
 RETURN final_prediction
 ```
+
+### "Предыдущие части"
+
+* [Chamomile Divination 1](https://github.com/Alvant/AdvancedPython/tree/master2022/labs/lab04#%D0%B7%D0%B0%D0%B4%D0%B0%D1%87%D0%B0-2-chamomile-divination)
+* [Chamomile Divination 2](https://github.com/Alvant/AdvancedPython/blob/master2022/labs/lab08/README.md#%D0%B7%D0%B0%D0%B4%D0%B0%D1%87%D0%B0-8-chamomile-divination-2)
+* [Chamomile Divination 3](https://github.com/Alvant/AdvancedPython/tree/master2022/labs/lab09#%D0%B7%D0%B0%D0%B4%D0%B0%D1%87%D0%B0-3-chamomile-divination-3)

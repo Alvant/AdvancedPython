@@ -122,6 +122,9 @@ final_prediction = count_max(predictions)
 RETURN final_prediction
 ```
 
+Чтобы лучше "прочувствовать" практическую пользу от многопоточности, можно в функцию для обработки одной ромашки вставить `sleep(1)` – то есть чтобы лепесток как бы обрывался за время, равное одной секунде.
+
+
 ### Предыдущие "ромашковые" части
 
 * [Chamomile Divination 1](https://github.com/Alvant/AdvancedPython/tree/master2022/labs/lab04#%D0%B7%D0%B0%D0%B4%D0%B0%D1%87%D0%B0-2-chamomile-divination)

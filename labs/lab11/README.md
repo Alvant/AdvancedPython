@@ -65,9 +65,12 @@ English-Fairy-Tales.txt: mill-wheels. And then they took out the princess and
 * [Chamomile Divination 2](https://github.com/Alvant/AdvancedPython/blob/master2022/labs/lab08/README.md#%D0%B7%D0%B0%D0%B4%D0%B0%D1%87%D0%B0-8-chamomile-divination-2)
 * [Chamomile Divination 3](https://github.com/Alvant/AdvancedPython/tree/master2022/labs/lab09#%D0%B7%D0%B0%D0%B4%D0%B0%D1%87%D0%B0-3-chamomile-divination-3)
 
-<p text-align="right">
+
+
+<div>
 <em>
-	Солнышко светит,<br>
+  <p align="right">
+    Солнышко светит,<br>
 	И я иду.<br>
 	Куда — сама не знаю.<br>
 	Чего-то жду.<br>
@@ -76,8 +79,9 @@ English-Fairy-Tales.txt: mill-wheels. And then they took out the princess and
 	Огонь в глаза:<br>
 	Ромашковое поле,<br>
 	Без края и конца.
+  </p>
 </em>
-</p>
+</div>
 
 Какое-то время Наташе нравился последний придуманный ею способ гадания по нескольким ромашкам (асинхронный).
 Но и у этого способа обнаружился недостаток, с которым Наташа не захотела мириться...

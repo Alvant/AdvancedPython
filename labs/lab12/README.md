@@ -133,9 +133,9 @@ def print_goodbye(self):
 Так, сигареты [замазываются](https://dtf.ru/u/3351-vadim-elistratov/987583-zagadochnoe-delo-o-zamazannoy-sigarete-v-chetvertoy-matrice),
 мужские достоинства [вырезаются](https://www.polygon.com/23467043/black-panther-wakanda-forever-namor-bulge),
 женские — [заменяются на фрукты](https://dtf.ru/games/869120-frukty-vmesto-zhenshchiny-blizzard-zamenila-dve-otkrovennyh-kartiny-v-world-of-warcraft),
-а Джованни, возможно, [готовится принять солнечную ванну](https://www.vedomosti.ru/society/news/2022/11/24/951902-gosduma-prinyala-zakon-o-zaprete-lgbt) температурой 451&nbsp;°F.
+а Джованни, возможно, [готовится принять солнечную ванну](https://www.vedomosti.ru/society/news/2022/11/24/951902-gosduma-prinyala-zakon-o-zaprete-lgbt) температурой 451&nbsp;°F...
 
-Так не будем отставать от "тренда"!
+Так не будем же отставать от "тренда"!
 Напишите программу с регуляркой, которая бы прятала (забивала звёздочками) "сомнительные" выражения в тексте.
 
 Например, вход:
@@ -154,7 +154,7 @@ def print_goodbye(self):
 Смеющиеся уроды кинулись к ручейкам, опустились на четвереньки.
 ```
 
-(Oberst Schroder — Полковник Шрёдер (нем.), Himmelherrgott — А, чтобы тебя чёрт подрал! (нем.))
+(*Oberst Schroder* — Полковник Шрёдер (нем.), *Himmelherrgott* — А, чтобы тебя чёрт подрал! (нем.))
 
 Выход:
 ```

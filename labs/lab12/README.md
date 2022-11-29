@@ -133,7 +133,7 @@ def print_goodbye(self):
 Так, сигареты [замазываются](https://dtf.ru/u/3351-vadim-elistratov/987583-zagadochnoe-delo-o-zamazannoy-sigarete-v-chetvertoy-matrice),
 мужские достоинства [вырезаются](https://www.polygon.com/23467043/black-panther-wakanda-forever-namor-bulge),
 женские — [заменяются на фрукты](https://dtf.ru/games/869120-frukty-vmesto-zhenshchiny-blizzard-zamenila-dve-otkrovennyh-kartiny-v-world-of-warcraft),
-запрещают [играть в бутылочку в костюме плюшевого медведя](https://www.mirf.ru/news/nikakih-fetishej-furri-i-upominanij-lyucifera-sozdatel-graviti-folz-o-rabote-s-disney),
+гигантским плюшевым медведям [запрещают играть в бутылочку](https://www.mirf.ru/news/nikakih-fetishej-furri-i-upominanij-lyucifera-sozdatel-graviti-folz-o-rabote-s-disney),
 а Джованни, возможно, [готовится принять солнечную ванну](https://www.vedomosti.ru/society/news/2022/11/24/951902-gosduma-prinyala-zakon-o-zaprete-lgbt) температурой 451&nbsp;°F...
 
 Так не будем же отставать от "тренда"!

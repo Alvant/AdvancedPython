@@ -134,16 +134,16 @@ X = │  20  2 │
 
 Один из самых базовых элементов искусственных нейронных сетей — нейрон:
 <p align="center">
-    <img src="./images/Neuron.png" />
+    <img src="./images/Neuron.png" width="50%" />
 </p>
 <p align="center">
 	<em>
-	Нейрон — линейная функция + нелинейность (<a href="https://en.wikipedia.org/wiki/Activation_function#Table_of_activation_functions">*функция активации*</a>, например, сигмоида.).
+	Нейрон — линейная функция + нелинейность (<a href="https://en.wikipedia.org/wiki/Activation_function#Table_of_activation_functions"><em>функция активации</em></a>, например, сигмоида.).
 	</em>
 </p>
 
 Нейрон является компонентом более сложных элементов нейросетей.
-Например, [Long Short-Term Memory (LSTM)](https://en.wikipedia.org/wiki/Long_short-term_memory) блока, являющегося популярной архитектурой для обработки последовательностей ([Recurrent Neural Network](https://en.wikipedia.org/wiki/Recurrent_neural_network)).
+Например, [Long Short-Term Memory (LSTM)](https://en.wikipedia.org/wiki/Long_short-term_memory) блока, являющегося популярной архитектурой для обработки последовательностей ([RNN — Recurrent Neural Network](https://en.wikipedia.org/wiki/Recurrent_neural_network)).
 
 Напишите с помощью `numpy` функцию вида:
 ```python
@@ -155,7 +155,7 @@ def lstm(input: array) -> array:
 
 Которая должна быть реализацией [формулы LSTM](https://en.wikipedia.org/wiki/Long_short-term_memory#LSTM_with_a_forget_gate):
 <p align="center">
-    <img src="./images/lstm_algo.png" />
+    <img src="./images/lstm_algo.png" width="50%" />
 </p>
 <p align="center">
 	<em>
@@ -168,10 +168,10 @@ def lstm(input: array) -> array:
 
 О [матричной операции *свёртки*](https://en.wikipedia.org/wiki/Convolution#Discrete_convolution) можно думать как об операции, принимающей не вход две матрицы и возвращающей третью.
 Входные матрицы — это собственно "input" матрица (например, RGB изображение как матрица размера "число каналов, то есть 3" X "высота" X "ширина") и так называемая ["kernel" или "filter" матрица](https://stats.stackexchange.com/a/188216/271863).
-Выходная "output" матрица получается словно бы "скольжением" фильтра по оригинальной матрице.
+Выходная "output" матрица получается как бы "скольжением" фильтра по оригинальной матрице.
 
 <p align="center">
-    <img src="./images/ConvSliding.jpg" />
+    <img src="./images/ConvSliding.jpg" width="80%" />
 </p>
 <p align="center">
 	<em>
@@ -190,7 +190,7 @@ def blur(input_path: str, output_path: str) -> None:
 которая принимает на вход путь `input_path` до RGB изображения, а в качестве результата записывает под путём `output_path` соответствующее размытое изображение, полученное как свёртка с каким-нибудь размывающим фильтром.
 
 <p align="center">
-    <img src="./images/EzhStripped.png" />
+    <img src="./images/EzhStripped.png" width="80%" />
 </p>
 <p align="center">
 	<em>

@@ -138,7 +138,7 @@ X = │  20  2 │
 </p>
 <p align="center">
 	<em>
-	<a href="bit.ly/ML-Vorontsov">Нейрон — линейная функция + нелинейность</a> (<a href="https://en.wikipedia.org/wiki/Activation_function#Table_of_activation_functions"><em>функция активации</em></a>, например, сигмоида.).
+	<a href="https://bit.ly/ML-Vorontsov">Нейрон — линейная функция + нелинейность</a> (<a href="https://en.wikipedia.org/wiki/Activation_function#Table_of_activation_functions"><em>функция активации</em></a>, например, сигмоида.).
 	</em>
 </p>
 

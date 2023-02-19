@@ -4,7 +4,7 @@
 https://stackoverflow.com/questions/24319505/how-can-one-display-images-side-by-side-in-a-github-readme-md
 -->
 <p align="middle">
-    <img src="images/pandas-name-explained2.svg" width="95%">
+    <img src="images/pandas-name-explained2.svg" width="60%">
 </p>
 
 

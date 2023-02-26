@@ -50,7 +50,7 @@
   <img src="./images/red-high-heel/red-high-heel.png" alt="Cotton Candy High Heels by Patti Mollica but painted with matplotlib" title="Red High Heel (Matplotlib Version)" width="42.5%" align="center" />
 </p>
 <p align="center">
-  <em>Возможный пример воспроизведения изображения с помощью `matplotlib`. Слева: оригинальная картинка (<a href="http://newyorkpainter.blogspot.com/2010/10/cotton-candy-high-heels.html">Cotton Candy High Heels by Patti Mollica</a>). Справа: вариант перерисовки через `matplotlib` (но без `plt.imshow`).</em>
+  <em>Возможный пример воспроизведения изображения с помощью <tt>matplotlib</tt>. Слева: оригинальная картинка (<a href="http://newyorkpainter.blogspot.com/2010/10/cotton-candy-high-heels.html">Cotton Candy High Heels by Patti Mollica</a>). Справа: вариант перерисовки через <tt>matplotlib</tt> (но без <tt>plt.imshow</tt>).</em>
 </p>
 
 

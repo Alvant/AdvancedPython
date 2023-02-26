@@ -43,7 +43,7 @@
 ## Задание 5* (Red High Heel)
 
 Надо воспроизвести любую картинку (файл формата .png/.jpg) с помощью `matplotlib`.
-При этом не используя метод *imshow*! только "стандартные" методы рисования (например, *plot*, *scatter*).
+При этом не используя метод `imshow`! только "стандартные" методы рисования (например, `plot`, `scatter`).
 
 <p align="center">
   <img src="./images/red-high-heel/red-high-heel-original-resized.jpg" alt="Cotton Candy High Heels by Patti Mollica" title="Red High Heel (Original)" width="40%" align="center" />

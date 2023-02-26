@@ -45,9 +45,9 @@
 Надо воспроизвести любую картинку с помощью `matplotlib`.
 При этом не используя метод *imshow*! только "стандартные" методы рисования (например, *plot*, *scatter*).
 
-<p align="middle">
-  <img src="./images/red-high-heel/red-high-heel-original-resized.jpg" alt="Cotton Candy High Heels by Patti Mollica" title="Red High Heel (Original)" width="40%" />
-  <img src="./images/red-high-heel/red-high-heel.png" alt="Cotton Candy High Heels by Patti Mollica but painted with matplotlib" title="Red High Heel (Matplotlib Version)" width="50%" />
+<p align="center">
+  <img src="./images/red-high-heel/red-high-heel-original-resized.jpg" alt="Cotton Candy High Heels by Patti Mollica" title="Red High Heel (Original)" width="40%" align="center" />
+  <img src="./images/red-high-heel/red-high-heel.png" alt="Cotton Candy High Heels by Patti Mollica but painted with matplotlib" title="Red High Heel (Matplotlib Version)" width="42.5%" align="center" />
 </p>
 <p align="center">
   <em>Возможный пример воспроизведения изображения с помощью `matplotlib`. Слева: оригинальная картинка (<a href="http://newyorkpainter.blogspot.com/2010/10/cotton-candy-high-heels.html">Cotton Candy High Heels by Patti Mollica</a>). Справа: вариант перерисовки через `matplotlib` (но без `plt.imshow`).</em>

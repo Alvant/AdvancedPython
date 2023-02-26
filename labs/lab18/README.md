@@ -36,7 +36,7 @@
 Надо нарисовать с помощью `matplotlib` график, максимально похожий на следующий:
 
 <p align="center">
-  <img src="./images/rainbow/rainbow_hd.png" alt="Little girl waving her hand under the rainbow" title="Rainbow" width="60%" />
+  <img src="./images/rainbow/rainbow_hd.png" alt="Little girl waving her hand under the rainbow" title="Rainbow" width="80%" />
 </p>
 
 
@@ -46,8 +46,8 @@
 При этом не используя метод *imshow*! только "стандартные" методы рисования (например, *plot*, *scatter*).
 
 <p align="center">
-  <img src="./images/red-high-heel/red-high-heel-original-resized.jpg" alt="Cotton Candy High Heels by Patti Mollica" title="Red High Heel (Original)" width="45%" />
-  <img src="./images/red-high-heel/red-high-heel.png" alt="Cotton Candy High Heels by Patti Mollica but painted with matplotlib" title="Red High Heel (Matplotlib Version)" width="45%" />
+  <img src="./images/red-high-heel/red-high-heel-original-resized.jpg" alt="Cotton Candy High Heels by Patti Mollica" title="Red High Heel (Original)" width="40%" />
+  <img src="./images/red-high-heel/red-high-heel.png" alt="Cotton Candy High Heels by Patti Mollica but painted with matplotlib" title="Red High Heel (Matplotlib Version)" width="50%" />
 </p>
 <p align="center">
   <em>Возможный пример воспроизведения изображения с помощью `matplotlib`. Слева: оригинальная картинка (<a href="http://newyorkpainter.blogspot.com/2010/10/cotton-candy-high-heels.html">Cotton Candy High Heels by Patti Mollica</a>). Справа: вариант перерисовки через `matplotlib` (но без `plt.imshow`).</em>

@@ -1,1 +1,24 @@
-*.ipynb linguist-vendored
+# Basic .gitattributes for a python repo.
+
+
+# Source files
+# ============
+
+*.py     text diff=python
+
+
+# Binary files
+# ============
+
+*.gif    binary
+*.jpeg   binary
+*.jpg    binary
+*.png    binary
+*.svg    binary
+
+
+# Visualization/demo/documentation files
+# ============
+
+*.ipynb linguist-documentation
+*.html linguist-documentation

@@ -1,6 +1,6 @@
 # Lab 21. Web: HTML, CSS & JS
 
-<div align="right"><em>Structure, style, and "behaviour" — one Web to rule them all...<em></div>
+<div align="right"><em>Structure, style, and "behaviour" — one Web to rule them all...</em></div>
 
 <br/>
 

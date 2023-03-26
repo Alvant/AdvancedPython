@@ -1,6 +1,8 @@
 # Lab 21. Web: HTML, CSS & JS
 
-<div align="right">Structure, style, and "behaviour" — one Web to rule them all...</div>
+<div align="right"><em>Structure, style, and "behaviour" — one Web to rule them all...<em></div>
+
+<br/>
 
 ["Простое" демо](./demo/simple_demo) (кликнуть на HTML, чтоб открыть файл в браузере).
 ["Продвинутое" демо](./demo/server_demo) (сервер на flask-е, доступный локально по определённому порту).

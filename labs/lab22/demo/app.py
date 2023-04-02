@@ -35,9 +35,6 @@ def home():
 
 @app.route('/recipes/apply_pie', methods=('GET', 'POST'))
 def apple_pie():
-    # TODO: it is possible to send the same comment several times
-    #  (after page refresh)
-
     if request.method == 'POST':
         new_comment = request.form['comment']
         db.save_comment(new_comment)

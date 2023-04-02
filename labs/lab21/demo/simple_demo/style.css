@@ -1,0 +1,26 @@
+html {
+	background-color: #ffd3f3;
+	text-align: center;
+}
+
+h1 {
+	color: #660099;
+	font-style: italic;
+	margin-bottom: 2em;
+}
+
+#recipe {
+	text-align: left;
+	width: 50%;
+	margin: auto;
+}
+
+#pie {
+	float: right;
+}
+
+#farewell {
+	margin-top: 5em;
+	font-style: italic;
+	font-size: 1.2em;
+}

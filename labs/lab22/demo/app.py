@@ -8,7 +8,7 @@ from flask import (
     render_template,
     request,
     url_for,
-    # session  # For cookies
+    # session  # for cookies
 )
 
 from db import (
@@ -23,7 +23,7 @@ app = Flask(
     template_folder='./templates',
     static_folder='./static'
 )
-# app.secret_key = os.urandom(24)  # For cookies
+# app.secret_key = os.urandom(24)  # for cookies
 
 db = CommentsDatabase('./_comments.txt')
 
@@ -39,11 +39,12 @@ def apple_pie():
         new_comment = request.form['comment']
         db.save_comment(new_comment)
 
-        # redirect prevents duplicate POST after page refresh
+        # redirect is used instead of plain render_template
+        # because it prevents duplicate POST after page refresh
         return redirect(url_for('apple_pie'))
 
     comments_text = _compose_comments_text(db.comments)
-    # session['comments'] = db.comments
+    # session['comments'] = db.comments  # for cookies
 
     return render_template(
         'recipe.html', comments_text=comments_text
@@ -56,7 +57,5 @@ def _compose_comments_text(comments: List[Comment]):
     )
 
 
-
 if __name__ == '__main__':
     app.run(debug=True)
-

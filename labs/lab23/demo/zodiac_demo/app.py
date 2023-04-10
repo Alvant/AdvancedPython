@@ -86,6 +86,8 @@ class MainWindow(QMainWindow):
 
     @pyqtSlot(int)
     def on_activated(self, index):
+        # TODO: remove empty month option if one is selected
+
         if self.month.currentText() == '':
             num_days = 0
         else:
@@ -156,7 +158,7 @@ class MainWindow(QMainWindow):
             image_name = 'scorpio.png'
         elif date(some_year, 11, 23) <= input_date <= date(some_year, 12, 21):
             image_name = 'sagittarius.png'
-        elif date(some_year, 12, 22) <= input_date <= date(some_year + 1, 1, 20):  # +1 for double comparison
+        elif date(some_year, 12, 22) <= input_date <= date(some_year + 1, 1, 20):  # + 1 year for the two-side comparison
             image_name = 'capricorn.png'
         elif date(some_year, 1, 21) <= input_date <= date(some_year, 2, 18):
             image_name = 'aquarius.png'

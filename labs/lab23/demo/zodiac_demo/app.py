@@ -133,7 +133,7 @@ class MainWindow(QMainWindow):
 
         msg.setText(info)
         msg.setWindowTitle("Welcome")
-        msg.exec_()
+        msg.exec()
 
     def _get_zodiac_image(self, month: int, day: int) -> str:
         some_year = self._reference_date.year

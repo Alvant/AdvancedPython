@@ -75,7 +75,6 @@ class MainWindow(QMainWindow):
         widget.setLayout(layout)
         self.setCentralWidget(widget)
 
-        print(self.processed)
         self.processed.connect(self.on_processed)
 
         self._zodiac_images_folder = zodiac_folder

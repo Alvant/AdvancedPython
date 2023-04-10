@@ -128,7 +128,7 @@ class MainWindow(QMainWindow):
         else:
             image_path = os.path.join(self._zodiac_images_folder, image_file_name)
             pixmap = QPixmap(image_path)
-            pixmap = pixmap.scaled(100, 100, QtCore.Qt.KeepAspectRatio)
+            pixmap = pixmap.scaled(100, 100, Qt.KeepAspectRatio)
             msg.setIconPixmap(pixmap)
 
         msg.setText(info)

@@ -10,7 +10,7 @@
 pip install PyQt5
 ```
 
-*Even after `pip`, some problems still may arise (for example [this](https://forum.qt.io/topic/93247/qt-qpa-plugin-could-not-load-the-qt-platform-plugin-xcb-in-even-though-it-was-found/86?_=1681162158868&lang=en-US))*.
+*Even after `pip`, some problems still may arise (for example, [this](https://forum.qt.io/topic/93247/qt-qpa-plugin-could-not-load-the-qt-platform-plugin-xcb-in-even-though-it-was-found/86?_=1681162158868&lang=en-US))*.
 
 
 ## References

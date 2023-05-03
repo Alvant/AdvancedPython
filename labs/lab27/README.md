@@ -7,6 +7,6 @@
   <em>(The Unlikely Ones by Mary Brown)</em>
 </p>
 
-Ноутбук по тематическому моделированию: https://colab.research.google.com/drive/13oUI1yxZHdQWUfmMpFY4KVlkyWzAkoky.
-
-Видео с разбором ноутбука (не с лабы): https://youtu.be/AIN00vWOJGw.
+* Ноутбук по тематическому моделированию: https://colab.research.google.com/drive/13oUI1yxZHdQWUfmMpFY4KVlkyWzAkoky.
+* Видео с разбором ноутбука (не с лабы): https://youtu.be/AIN00vWOJGw.
+* Курс по тематическому моделированию (ноутбук и видео — часть курса): http://bit.ly/2EGWcjA.

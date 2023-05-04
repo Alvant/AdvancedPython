@@ -1,7 +1,7 @@
 # ML5: TM
 
 <p align="center">
-  <img src="images/topics-in-a-piece-of-text2.png" width="80%">
+  <img src="images/topics-in-a-piece-of-text3.png" width="80%">
 </p>
 <p align="center">
   <em>Возможный пример разметки текста по темам (The Unlikely Ones by Mary Brown).</em>

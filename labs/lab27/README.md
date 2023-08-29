@@ -1,4 +1,4 @@
-# ML5: TM
+# Lab 27. ML5: TM
 
 <p align="center">
   <img src="images/topics-in-a-piece-of-text5.png" width="80%">

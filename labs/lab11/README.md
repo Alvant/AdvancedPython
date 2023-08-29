@@ -1,4 +1,4 @@
-# Lab 10. Multiverse (Threading & Multiprocessing)
+# Lab 11. Multiverse (Threading & Multiprocessing)
 
 Достаточно решить и первую, и вторую задачу.
 При решении *надо использовать процессы или потоки* (то, что даст выигрыш).

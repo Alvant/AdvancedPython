@@ -79,7 +79,7 @@
 Например, что-то про это сказано [тут](https://stackoverflow.com/questions/26620312/git-installing-git-in-path-with-github-client-for-windows).
 
 Если не хочется особо возиться с Гитом, изменять `PATH` и т.п., то можно ещё сделать так.
-Для Windows есть удобная Unix-like консоль [Cmder](https://cmder.net).
+Для Windows есть удобная Unix-like консоль [Cmder](https://cmder.app/).
 При скачивании есть вариант "Download Full (with Git for Windows)".
 Если это скачать, установить, и запустить консоль, то на машине бесплатно появится и Git.
 Правда, команда `git` будет работать только в указанной консоли.
@@ -227,7 +227,7 @@ git pull
 ## Ссылки
 
 * [Powerful Python One-Liners](https://wiki.python.org/moin/Powerful%20Python%20One-Liners) — пара крутых питонских однострочников ("обратить словарь в одну строчку")
-* [Cmder](https://cmder.net/) — Unix-like консоль на Windows
+* [Cmder](https://cmder.app/) — Unix-like консоль на Windows
 * [Learn Git Branching](https://learngitbranching.js.org/?locale=ru_RU) — классная интерактивная Гит-обучалка (`git add`, `git commit`, `git cherry-pick`, `git rebase` & many more)
 
 
